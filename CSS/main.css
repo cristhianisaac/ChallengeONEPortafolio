@@ -1,0 +1,48 @@
+*{
+    font-family: 'Raleway';
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.principal,.Header,.Banner,.SobreMi,.Skills,.Hobbies,.Escuelas,.Experiencias,.Contacto{
+    width: 100%;
+    margin-top: 25px;
+}
+
+ul{
+    list-style:none
+}
+
+.Header .Contenedor{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.Header .Contenedor .Menu .Menu-Lista{
+    display: flex;
+}
+.Header .Contenedor .Menu .Menu-Lista li{
+    padding-left: 15px;
+}
+
+.Banner .Contenedor{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+.Banner .Contenedor .Banner-Derecha{
+    width: 60%;
+}
+.Banner .Contenedor .Banner-Izquierda{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Banner .Contenedor .Banner-Izquierda img{
+    width: 75%;
+}
+

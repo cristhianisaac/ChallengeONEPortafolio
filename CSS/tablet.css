@@ -1,0 +1,13 @@
+@media (min-width:801px) and (max-width:1019px)  {
+        
+    .principal,.Header,.Banner,.SobreMi,.Skills,.Hobbies,.Escuelas,.Experiencias,.Contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Contenedor{
+        width: 100%;        
+    }
+ }
+ 
