@@ -15,6 +15,19 @@ ul{
     list-style:none
 }
 
+h1,h2,h3,h4{
+    margin-block-end: 5px;
+    padding-bottom: 10px;
+    line-height: 60px;
+    width: 100%;
+}
+
+p{
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+    padding-bottom: 10px;
+    line-height: 35px;
+}
 .Header .Contenedor{
     display: flex;
     align-items: center;
@@ -37,12 +50,103 @@ ul{
     width: 60%;
 }
 .Banner .Contenedor .Banner-Izquierda{
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .Banner .Contenedor .Banner-Izquierda img{
-    width: 75%;
+    width: 100%;
 }
 
+.Banner .Contenedor .Banner-Derecha .Redes{
+    display: flex;
+	justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Banner .Contenedor .Banner-Derecha .Redes li{
+    display: flex;
+}
+
+.SobreMi, .Escuelas{
+    background-color: #eaf2fd;
+}
+
+.SobreMi .Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+	justify-content: space-between;
+}
+.Skills .Contenedor{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+}
+.Hobbies .Contenedor{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+}
+.Cuadricula{
+    display: flex;
+	justify-content: space-between;
+    width: 100%;
+}
+.Cuadricula div{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 130px
+}
+.Cuadricula div i{
+    margin-top: auto;
+    color: #2a7ae4;
+    font-size: 40px;
+}
+.Cuadricula div label{
+    font-weight: bold;
+    padding: 15px;
+}
+
+.Escuelas .Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.Escuelas .Contenedor .Lista-Escuelas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	justify-content: space-between;
+}
+.Escuelas .Contenedor .Lista-Escuelas .Escuela {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen{
+    background-color: #fff;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img{
+    width: 75%;
+}
+.Escuelas .Contenedor .Lista-Escuelas .Escuela label{
+    width: 100%;
+    margin-top: 5px;
+}
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .titulo{
+    font-weight: bold;
+}
