@@ -27,11 +27,17 @@ p{
     margin-block-end: 4px;
     padding-bottom: 10px;
     line-height: 35px;
+    font-size: 20px;
+}
+h2{
+    font-size: 28px;
+    font-weight: bolder;
 }
 .Header .Contenedor{
     display: flex;
     align-items: center;
 	justify-content: space-between;
+    font-size: 22px;
 }
 
 .Header .Contenedor .Menu .Menu-Lista{
@@ -65,6 +71,7 @@ p{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 .Banner .Contenedor .Banner-Derecha .Redes li{
     display: flex;
@@ -72,6 +79,13 @@ p{
 
 .SobreMi, .Escuelas{
     background-color: #eaf2fd;
+}
+
+.titulo{
+    font-size: 21px;
+}
+.subtitulo{
+    font-size: 19px;
 }
 
 .SobreMi .Contenedor{
@@ -86,11 +100,17 @@ p{
 	justify-content: space-between;
     align-items: center;
 }
+.Skills .Contenedor h2{
+    text-align: center;
+}
 .Hobbies .Contenedor{
     display: flex;
     flex-direction: column;
 	justify-content: space-between;
     align-items: center;
+}
+.Hobbies .Contenedor h2{
+    text-align: center;
 }
 .Cuadricula{
     display: flex;
@@ -103,7 +123,8 @@ p{
     flex-direction: column;
     align-items: center;
     width: 15%;
-    height: 130px
+    height: 200px;
+    border-radius: 10px;
 }
 .Cuadricula div i{
     margin-top: auto;
@@ -121,6 +142,9 @@ p{
     align-items: center;
     margin: 50px 0 50px 0;
 }
+.Escuelas .Contenedor h2{
+    text-align: center;
+}
 .Escuelas .Contenedor .Lista-Escuelas{
     display: flex;
     align-items: center;
@@ -134,19 +158,63 @@ p{
 }
 .Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen{
     background-color: #fff;
-    height: 250px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    border-radius: 10px;
 }
 .Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img{
     width: 75%;
+    border-radius: 10px;
 }
 .Escuelas .Contenedor .Lista-Escuelas .Escuela label{
     width: 100%;
     margin-top: 5px;
 }
 .Escuelas .Contenedor .Lista-Escuelas .Escuela .titulo{
+    font-weight: bold;
+}
+
+
+.Experiencias .Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.Experiencias .Contenedor .Experiencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Experiencias .Contenedor .Experiencia .Imagen-XP{
+    width: 65%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Experiencias .Contenedor .Experiencia .Imagen-XP Img{
+    width: 90%;
+    margin: 50px 0 50px 0;
+    border-radius: 10px;
+}
+
+.Experiencias .Contenedor .Experiencia .Descripcion{
+    width: 35%;
+    text-align: center;
+}
+
+
+.Experiencias .Contenedor .Experiencia .Descripcion label{
+    width: 100%;
+    margin-top: 5px;
+    display: block;
+}
+.Experiencias .Contenedor .Experiencia .Descripcion .titulo{
     font-weight: bold;
 }
