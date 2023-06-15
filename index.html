@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="SWEETALERT/sweetalert2@11.js"></script>
     <script src="SWEETALERT/sweetalert2.min.js"></script>
     <link rel="stylesheet" href="SWEETALERT/sweetalert2.min.css">
@@ -32,16 +32,16 @@
           <div class="Menu">
             <ul class="Menu-Lista">
               <li>
-                <a>Sobre Mi</a>
+                <a href="#SobreMi">Sobre Mi</a>
               </li>
               <li>
-                <a>Skills</a>
+                <a href="#Skills">Skills</a>
               </li>
               <li>
-                <a>Formación</a>
+                <a href="#Formacion">Formación</a>
               </li>
               <li>
-                <a>Proyectos</a>
+                <a href="#Proyectos">Proyectos</a>
               </li>
               <li>
                 <a>
@@ -82,14 +82,17 @@
           </div>
         </div>
       </div>
-      <div class="SobreMi">
+      <div class="SobreMi" id="SobreMi">
         <div class="Contenedor">
-          <h2>Sobre mi...</h2>
-          <p>Como desarrollador de software, me considero capaz de crear, implementar y administrar sistemas y aplicaciones informáticas que cumplan con altos estándares de calidad. Mi objetivo es apoyar la productividad y competitividad de las organizaciones en las que trabajo. Me tomo en serio los retos y metas que se me presentan y estoy siempre dispuesto a adaptarme a los cambios que se requieran en el entorno laboral.</p>
-          <p>En resumen, soy un profesional comprometido con mi trabajo, con una sólida formación técnica y habilidades interpersonales que me permiten trabajar en equipo y resolver problemas de manera efectiva. Estoy seguro de que mi experiencia y habilidades serán un activo valioso para cualquier organización en la que tenga la oportunidad de trabajar.</p>
+          <div class="Derecha">
+            <h2>Sobre mi...</h2>
+            <p>Como desarrollador de software, me considero capaz de crear, implementar y administrar sistemas y aplicaciones informáticas que cumplan con altos estándares de calidad. Mi objetivo es apoyar la productividad y competitividad de las organizaciones en las que trabajo. Me tomo en serio los retos y metas que se me presentan y estoy siempre dispuesto a adaptarme a los cambios que se requieran en el entorno laboral.</p>
+            <p>En resumen, soy un profesional comprometido con mi trabajo, con una sólida formación técnica y habilidades interpersonales que me permiten trabajar en equipo y resolver problemas de manera efectiva. Estoy seguro de que mi experiencia y habilidades serán un activo valioso para cualquier organización en la que tenga la oportunidad de trabajar.</p>
+          </div>
+          <img src="IMG/firma.png" />
         </div>
       </div>
-      <div class="Skills">
+      <div class="Skills" id="Skills">
         <div class="Contenedor">
           <h2>Skills</h2>
           <div class="Cuadricula">
@@ -151,7 +154,7 @@
           </div>
         </div>
       </div>
-      <div class="Escuelas">
+      <div class="Escuelas" id="Formacion">
         <div class="Contenedor">
           <h2>Formación académica</h2>
           <div class="Lista-Escuelas">
@@ -179,7 +182,7 @@
           </div>
         </div>
       </div>
-      <div class="Experiencias">
+      <div class="Experiencias" id="Proyectos">
         <div class="Contenedor">
           <h2>Experiencia Profesional</h2>
           <div class="Experiencia">
@@ -201,22 +204,40 @@
               <a class="Demo">Demo</a>
             </div>
             <div class="Imagen-XP">
-              <img />
+              <img src="IMG/Ahorcado.png" />
             </div>
           </div>
         </div>
       </div>
       <div class="Contacto">
         <div class="Contenedor">
-          <div class="Telefono"></div>
+          <div class="Telefono">
+            <img src="IMG/Contact.png" />
+          </div>
           <div class="Formulario">
             <h2>Contacto</h2>
             <p>¿Quieres contactarme? <br />Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </p>
-            <input type="text" placeholder="Nombre" />
-            <input type="email" placeholder="e-mail" />
-            <input type="text" placeholder="Asunto" />
-            <input type="text" placeholder="Mensaje" />
-            <button>Enviar Mensaje</button>
+            <label for="nom" class="inp">
+              <input type="text" id="nom" placeholder="&nbsp;" />
+              <span class="label">Nombre</span>
+              <span class="focus-bg"></span>
+            </label>
+            <label for="mail" class="inp">
+              <input type="email" id="mail" placeholder="&nbsp;" />
+              <span class="label">Correo</span>
+              <span class="focus-bg"></span>
+            </label>
+            <label for="asunto" class="inp">
+              <input type="text" id="asunto" placeholder="&nbsp;" />
+              <span class="label">Asunto</span>
+              <span class="focus-bg"></span>
+            </label>
+            <label for="mensaje" class="inp">
+              <input type="text" id="mensaje" placeholder="&nbsp;" />
+              <span class="label">Mensaje</span>
+              <span class="focus-bg"></span>
+            </label>
+            <button class="Demo">Enviar Mensaje</button>
           </div>
         </div>
       </div>
