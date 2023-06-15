@@ -53,11 +53,12 @@ h2{
     display: flex;
     align-items: center;
 	justify-content: space-between;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .Header .Contenedor .Menu .Menu-Lista{
     display: flex;
+    font-size: 22px;
 }
 .Header .Contenedor .Menu .Menu-Lista li{
     padding-left: 15px;
@@ -98,7 +99,7 @@ h2{
     margin-right: 50px;
 }
 
-.SobreMi, .Escuelas{
+.SobreMi, .Escuelas, .Contacto{
     background-color: #eaf2fd;
 }
 
@@ -297,6 +298,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0 100px 0;
 }
 .Contacto .Contenedor .Telefono {
     width: 40%;
@@ -373,3 +375,15 @@ h2{
           .inp input:focus + .label + .focus-bg {
             transform: scaleX(1);
             transition: all .1s ease; }
+
+.pie p{
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px 0 10px 0;
+    line-height: 18px;
+}
