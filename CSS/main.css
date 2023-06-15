@@ -306,6 +306,7 @@ h2{
 }
 .Contacto .Contenedor .Telefono img {
     width: 80%;
+    margin-top: 50px;
 }
 
 .Contacto .Contenedor .Formulario {
