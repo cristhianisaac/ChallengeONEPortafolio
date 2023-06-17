@@ -1,5 +1,8 @@
-@media (min-width:0px) and (max-width:368px) {
-    .Lista{
+@media (max-width:500px) {
+    .Menu{
         display: none;
+    }
+    .Banner-Derecha{
+        width: 100%;
     }
 }
