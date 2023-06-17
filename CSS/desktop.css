@@ -61,10 +61,7 @@ print {
 
     .Header .Contenedor .Menu .Menu-Lista li:last-child {
         font-weight: bold;
-    }
-    .Header .Contenedor .Menu .Menu-Lista li+li::before {
-        content: " | ";
-    }
+   } 
 
     .Banner .Contenedor .Banner-Izquierda {
         width: 35%;
