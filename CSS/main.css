@@ -18,6 +18,7 @@ ul {
 
 a {
     cursor: pointer;
+    text-align:center;
 }
 
 a:link,
