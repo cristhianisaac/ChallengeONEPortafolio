@@ -35,11 +35,11 @@
         margin-block-end: 4px;
         padding-bottom: 10px;
         line-height: 35px;
-        font-size: 17px;
+        font-size: 16px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 24px;
         font-weight: bolder;
     }
 
@@ -47,12 +47,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .Header .Contenedor .Menu .Menu-Lista {
         display: flex;
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .Header .Contenedor .Menu .Menu-Lista li:not(:last-child) {
@@ -64,7 +64,7 @@
     }
 
     .Banner .Contenedor .Banner-Derecha h1 {
-        font-size: 28px;
+        font-size: 27px;
     }
 
 
@@ -73,7 +73,7 @@
     }
 
     .Banner .Contenedor .Banner-Derecha .Redes {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .Banner .Contenedor .Banner-Derecha .Redes li {
@@ -82,11 +82,11 @@
     }
 
     .titulo {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .subtitulo {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .SobreMi .Contenedor {
