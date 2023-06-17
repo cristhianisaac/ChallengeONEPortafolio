@@ -1,7 +1,12 @@
 @media (max-width:500px) {
-
+    .Header .Contenedor .Nombre {
+        font-size: 16px !important
+    }
+    .Header .Contenedor .Menu .Menu-Lista {
+        font-size: 14px !important
+    }
     .Banner .Contenedor .Banner-Derecha h1 {
-        font-size: 22px;
+        font-size: 22px !important
     }
 
     .Demo {
