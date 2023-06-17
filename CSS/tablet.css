@@ -63,14 +63,14 @@
     }
 
     .Banner .Contenedor .Banner-Derecha {
-        width: 70%;
+        width: 65%;
     }
 
     .Banner .Contenedor .Banner-Derecha h1 {
         font-size: 28px;
     }
     .Banner .Contenedor .Banner-Izquierda {
-        width: 25%;
+        width: 35%;
     }
     .Banner .Contenedor .Banner-Izquierda img {
         width: 85%;
