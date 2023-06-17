@@ -3,4 +3,12 @@
     .Banner .Contenedor .Banner-Derecha h1 {
         font-size: 22px;
     }
+
+    .Demo {
+        margin: 0 !important
+    }
+
+    .Repositorio {
+        margin: 0 !important
+    }
 }
