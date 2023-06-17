@@ -1,386 +1,334 @@
-
 html {
     scroll-behavior: smooth;
     user-select: none;
-  }
+}
 
-*{
-    font-family: 'Raleway';
+* {
+    font-family: "Raleway";
     color: #464646;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
-.principal,.Header,.Banner,.SobreMi,.Skills,.Hobbies,.Escuelas,.Experiencias,.Contacto{
-    width: 100%;
-    margin-top: 25px;
+ul {
+    list-style: none;
 }
 
-ul{
-    list-style:none
+a {
+    cursor: pointer;
 }
-a{
-    cursor:pointer;
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-h1,h2,h3,h4{
+
+h1,
+h2,
+h3,
+h4 {
     margin-block-end: 5px;
     padding-bottom: 10px;
     line-height: 60px;
     width: 100%;
 }
 
-p{
-    margin-block-start: 4px;
-    margin-block-end: 4px;
-    padding-bottom: 10px;
-    line-height: 35px;
-    font-size: 20px;
-}
-h2{
-    font-size: 28px;
-    font-weight: bolder;
-}
-.Header{
-    position: sticky; top: 0;
+.Header {
+    position: sticky;
+    top: 0;
     background-color: #f5f5f5;
 }
-.Header .Contenedor{
-    display: flex;
-    align-items: center;
-	justify-content: space-between;
-    font-size: 28px;
-}
 
-.Header .Contenedor .Menu .Menu-Lista{
-    display: flex;
-    font-size: 22px;
-}
-.Header .Contenedor .Menu .Menu-Lista li{
+.Header .Contenedor .Menu .Menu-Lista li {
     padding-left: 15px;
 }
 
-.Header .Contenedor .Menu .Menu-Lista li + li::before {
-    content: " | ";
-}
-
-.Banner .Contenedor{
+.Banner .Contenedor {
+    margin: 50px 0 50px 0;
     display: flex;
     align-items: center;
-	justify-content: space-between;
-    margin: 50px 0 50px 0;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
-.Banner .Contenedor .Banner-Derecha{
-    width: 60%;
-}
-.Banner .Contenedor .Banner-Izquierda{
-    width: 35%;
+
+.Banner .Contenedor .Banner-Izquierda {
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Banner .Contenedor .Banner-Izquierda img{
-    width: 85%;
-}
 
-.Banner .Contenedor .Banner-Derecha .Redes{
+.Banner .Contenedor .Banner-Derecha .Redes {
     display: flex;
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 20px;
-}
-.Banner .Contenedor .Banner-Derecha .Redes li{
-    display: flex;
-    margin-right: 50px;
 }
 
-.SobreMi, .Escuelas, .Contacto{
+.SobreMi,
+.Escuelas,
+.Contacto {
     background-color: #eaf2fd;
 }
 
-.titulo{
-    font-size: 21px;
-}
-.subtitulo{
-    font-size: 19px;
-}
 
-.SobreMi .Contenedor { 
-    margin: 50px 0 50px 0;
-}
-.SobreMi .Contenedor .Derecha{ 
-    width: 75%;
-}
-.SobreMi .Contenedor img{ 
-    width: 200px;
-    margin-bottom: 50px;
-}
-.Skills .Contenedor{
+.Skills .Contenedor {
     display: flex;
     flex-direction: column;
-	justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 50px 0 0 0;
 }
-.Skills .Contenedor h2{
-    text-align: center;
-}
-.Hobbies .Contenedor{
+
+.Hobbies .Contenedor {
     display: flex;
     flex-direction: column;
-	justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0 0 50px 0;
 }
-.Hobbies .Contenedor h2{
+
+.Skills .Contenedor h2 {
     text-align: center;
 }
-.Cuadricula{
+
+.Hobbies .Contenedor h2 {
+    text-align: center;
+}
+
+.Cuadricula {
     display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
     width: 100%;
 }
-.Cuadricula div{
-    background-color: #fff;
+
+.Cuadricula div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15%;
-    height: 200px;
+    margin: 0 0 50px 0;
+    background-color: #fff;
     border-radius: 10px;
 }
-.Cuadricula div i{
+
+.Cuadricula div i {
     margin-top: auto;
     color: #2a7ae4;
-    font-size: 40px;
-}
-.Cuadricula div label{
-    font-weight: bold;
-    padding: 15px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
-.Escuelas .Contenedor{
+.Cuadricula div label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Cuadricula div label {
+    font-weight: bold;
+}
+
+.Escuelas .Contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px 0 50px 0;
 }
-.Escuelas .Contenedor h2{
-    text-align: center;
-}
-.Escuelas .Contenedor .Lista-Escuelas{
+
+.Escuelas .Contenedor .Lista-Escuelas {
     display: flex;
     align-items: center;
     justify-content: center;
-	justify-content: space-between;
+    justify-content: space-between;
 }
+
 .Escuelas .Contenedor .Lista-Escuelas .Escuela {
     display: flex;
     flex-direction: column;
-    width: 30%;
 }
-.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen{
-    background-color: #fff;
+
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen {
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-radius: 10px;
 }
-.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img{
-    width: 75%;
-    border-radius: 10px;
-}
-.Escuelas .Contenedor .Lista-Escuelas .Escuela label{
+
+
+
+.Escuelas .Contenedor .Lista-Escuelas .Escuela label {
     width: 100%;
     margin-top: 5px;
 }
-.Escuelas .Contenedor .Lista-Escuelas .Escuela .titulo{
+
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .titulo {
     font-weight: bold;
 }
 
-
-.Experiencias .Contenedor{
+.Experiencias .Contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px 0 50px 0;
 }
 
-.Experiencias .Contenedor h2{
+.Escuelas .Contenedor h2 {
     text-align: center;
 }
-.Experiencias .Contenedor .Experiencia{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 0 15px 0;
-    width: 100%;
-}
 
-.Experiencias .Contenedor .Experiencia .Imagen-XP{
-    width: 65%;
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen {
     background-color: #fff;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.Experiencias .Contenedor .Experiencia .Imagen-XP Img{
-    width: 90%;
-    margin: 50px 0 50px 0;
+
+.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img {
     border-radius: 10px;
 }
 
-.Experiencias .Contenedor .Experiencia .Descripcion{
-    width: 35%;
+.Experiencias .Contenedor h2 {
     text-align: center;
 }
 
-
-.Experiencias .Contenedor .Experiencia .Descripcion label{
-    width: 100%;
-    margin: 5px 0 5px 0;
-    display: block;
+.Experiencias .Contenedor .Experiencia .Imagen-XP {
+    background-color: #fff;
+    border-radius: 10px;
 }
-.Experiencias .Contenedor .Experiencia .Descripcion .titulo{
+
+.Experiencias .Contenedor .Experiencia .Descripcion {
+    text-align: center;
+}
+
+.Experiencias .Contenedor .Experiencia .Descripcion .titulo {
     font-weight: bold;
 }
 
 .Demo {
-	background-color:#2296d4;
-	border-radius:5px;
-	border:1px solid #246ad4;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
+    background-color: #2296d4;
+    border-radius: 5px;
+    border: 1px solid #246ad4;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 16px 31px;
+    text-decoration: none;
+    min-width: 100px;
 }
+
 .Demo:hover {
-	background-color:#ffffff;
-	color:#2296d4;
+    background-color: #ffffff;
+    color: #2296d4;
 }
 
 .Demo:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
 .Repositorio {
-	background-color:#ffffff;
-	border-radius:5px;
-	border:1px solid #2296d4;
-	display:inline-block;
-	cursor:pointer;
-	color:#2296d4;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.Repositorio:hover {
-	background-color:#2296d4;
-	color:#ffffff;
-}
-.Repositorio:active {
-	position:relative;
-	top:1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #2296d4;
+    display: inline-block;
+    cursor: pointer;
+    color: #2296d4;
+    padding: 16px 31px;
+    text-decoration: none;
+    min-width: 100px;
 }
 
-.Contacto .Contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 0 100px 0;
+.Repositorio:hover {
+    background-color: #2296d4;
+    color: #ffffff;
 }
-.Contacto .Contenedor .Telefono {
-    width: 40%;
-}
-.Contacto .Contenedor .Telefono img {
-    width: 80%;
-    margin-top: 50px;
+
+.Repositorio:active {
+    position: relative;
+    top: 1px;
 }
 
 .Contacto .Contenedor .Formulario {
     display: grid;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    width: 60%;
 }
-
 
 .inp {
     position: relative;
     margin: auto;
     width: 100%;
     border-radius: 10px;
-    overflow: hidden; }
-    .inp .label {
-      position: absolute;
-      top: 20px;
-      left: 12px;
-      font-size: 16px;
-      color: rgba(10, 10, 10 0.5);
-      font-weight: 500;
-      transform-origin: 0 0;
-      transform: translate3d(0, 0, 0);
-      transition: all .2s ease;
-      pointer-events: none; }
-    .inp .focus-bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(10, 10, 10 0.05);
-      z-index: -1;
-      transform: scaleX(0);
-      transform-origin: left; }
-    .inp input {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 100%;
-      border: 0;
-      font-family: inherit;
-      padding: 16px 12px 0 12px;
-      height: 56px;
-      font-size: 16px;
-      font-weight: 400;
-      background: rgba(255, 255, 255);
-      box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.3);
-      color: #000;
-      transition: all .15s ease;
-      margin-bottom: 10px;
-     }
-      .inp input:hover {
-        background: rgba(10, 10, 10 0.04);
-        box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.5); }
-      .inp input:not(:placeholder-shown) + .label {
-        color: rgba(10, 10, 10 0.5);
-        transform: translate3d(0, -12px, 0) scale(0.75); }
-      .inp input:focus {
-        background: rgba(10, 10, 10 0.05);
-        outline: none;
-        box-shadow: inset 0 -2px 0 #0077FF; }
-        .inp input:focus + .label {
-          color: #0077FF;
-          transform: translate3d(0, -12px, 0) scale(0.75); }
-          .inp input:focus + .label + .focus-bg {
-            transform: scaleX(1);
-            transition: all .1s ease; }
+    overflow: hidden;
+}
 
-.pie p{
+.inp .label {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    color: rgba(10, 10, 10 0.5);
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.inp .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10 0.05);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.inp input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: 0;
+    padding: 16px 12px 0 12px;
+    height: 56px;
+    background: rgba(255, 255, 255);
+    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.3);
+    color: #000;
+    transition: all 0.15s ease;
+    margin-bottom: 10px;
+}
+
+.inp input:hover {
+    background: rgba(10, 10, 10 0.04);
+    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.5);
+}
+
+.inp input:not(:placeholder-shown)+.label {
+    color: rgba(10, 10, 10 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus {
+    background: rgba(10, 10, 10 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 #0077ff;
+}
+
+.inp input:focus+.label {
+    color: #0077ff;
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus+.label+.focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+}
+
+.pie p {
     text-align: center;
-    font-size: 12px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
