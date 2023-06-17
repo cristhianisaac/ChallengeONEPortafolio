@@ -216,6 +216,7 @@ h4 {
     padding: 16px 31px;
     text-decoration: none;
     min-width: 100px;
+    margin-top:10px;
 }
 
 .Demo:hover {
@@ -238,6 +239,8 @@ h4 {
     padding: 16px 31px;
     text-decoration: none;
     min-width: 100px;
+margin-top:10px;
+
 }
 
 .Repositorio:hover {
