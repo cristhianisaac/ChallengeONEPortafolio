@@ -66,6 +66,9 @@ print {
         content: " | ";
     }
 
+    .Banner .Contenedor .Banner-Izquierda {
+        width: 30%;
+    }
     .Banner .Contenedor .Banner-Derecha {
         width: 60%;
     }

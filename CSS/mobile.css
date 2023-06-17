@@ -68,6 +68,9 @@
     }
 
 
+    .Banner .Contenedor .Banner-Izquierda {
+        width: 50%;
+    }
     .Banner .Contenedor .Banner-Izquierda img {
         width: 100%;
     }
