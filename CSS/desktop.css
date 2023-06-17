@@ -1,5 +1,6 @@
 @media screen and (min-width:1020px),
 print {
+
     .principal,
     .Header,
     .Banner,
@@ -26,7 +27,7 @@ print {
     h4 {
         margin-block-end: 5px;
         padding-bottom: 10px;
-        line-height: 60px;
+        line-height: 42px;
         width: 100%;
     }
 
@@ -34,7 +35,7 @@ print {
         margin-block-start: 4px;
         margin-block-end: 4px;
         padding-bottom: 10px;
-        line-height: 35px;
+        line-height: 30px;
         font-size: 20px;
     }
 
@@ -50,25 +51,30 @@ print {
         font-size: 28px;
     }
 
+    .Header .Contenedor .Nombre {
+        font-size: 24px;
+    }
+
     .Header .Contenedor .Menu .Menu-Lista {
         display: flex;
         font-size: 22px;
     }
 
-    .Header .Contenedor .Menu .Menu-Lista li {
-        padding-left: 15px;
-    }
-
     .Header .Contenedor .Menu .Menu-Lista li:last-child {
         font-weight: bold;
-   } 
+    }
+
+    .Header .Contenedor .Menu .Menu-Lista li:not(:first-child) {
+        border-left: solid 2px #aaa;
+    }
 
     .Banner .Contenedor .Banner-Izquierda {
-        width: 35%;
-        
+        width: 40%;
+
     }
+
     .Banner .Contenedor .Banner-Derecha {
-        width: 60%;
+        width: 55%;
     }
 
 
@@ -115,7 +121,9 @@ print {
 
     .Escuelas .Contenedor .Lista-Escuelas .Escuela {
         width: 30%;
-    }.Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img {
+    }
+
+    .Escuelas .Contenedor .Lista-Escuelas .Escuela .Imagen img {
         width: 75%;
     }
 
@@ -169,6 +177,7 @@ print {
     .Contacto {
         margin: 100px;
     }
+
     .Contacto .Contenedor {
         display: flex;
         align-items: center;
@@ -192,6 +201,7 @@ print {
         box-sizing: border-box;
         width: 60%;
     }
+
     .inp {
         font-size: 16px;
         font-weight: 500;

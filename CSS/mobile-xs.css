@@ -1,8 +1,6 @@
 @media (max-width:500px) {
-    .Menu{
-        display: none;
-    }
-    .Banner-Derecha{
-        width: 100%;
+
+    .Banner .Contenedor .Banner-Derecha h1 {
+        font-size: 22px;
     }
 }

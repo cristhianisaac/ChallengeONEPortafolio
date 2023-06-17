@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width:1250px) {
+@media (min-width:800px) and (max-width:1250px) {
 
     .principal,
     .Header,
@@ -34,7 +34,7 @@
         margin-block-start: 4px;
         margin-block-end: 4px;
         padding-bottom: 10px;
-        line-height: 35px;
+        line-height: 27px;
         font-size: 17px;
     }
 
@@ -49,7 +49,9 @@
         justify-content: space-between;
         font-size: 25px;
     }
-
+    .Header .Contenedor .Nombre {
+        font-size: 21px;
+    }
     .Header .Contenedor .Menu .Menu-Lista {
         display: flex;
         font-size: 19px;

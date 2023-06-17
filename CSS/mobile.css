@@ -1,4 +1,4 @@
-@media (min-width:0px) and (max-width:767px) {
+@media (min-width:0px) and (max-width:800px) {
 
     .principal,
     .Header,
@@ -34,7 +34,7 @@
         margin-block-start: 4px;
         margin-block-end: 4px;
         padding-bottom: 10px;
-        line-height: 35px;
+        line-height: 25px;
         font-size: 15px;
     }
 
@@ -50,6 +50,9 @@
         font-size: 22px;
     }
 
+    .Header .Contenedor .Nombre {
+        font-size: 18px;
+    }
     .Header .Contenedor .Menu .Menu-Lista {
         display: flex;
         font-size: 16px;
@@ -61,10 +64,17 @@
 
     .Banner .Contenedor {
         flex-direction: column-reverse;
+        margin-top: 0px !important
+    }
+
+    .Banner-Derecha{
+        width: 100%;
     }
 
     .Banner .Contenedor .Banner-Derecha h1 {
         font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 28px;
     }
 
 
@@ -77,11 +87,16 @@
 
     .Banner .Contenedor .Banner-Derecha .Redes {
         font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
     }
 
     .Banner .Contenedor .Banner-Derecha .Redes li {
         display: flex;
-        margin-right: 50px;
+        margin: 15px 0 5px 0;
+        width: 35%;
     }
 
     .titulo {
