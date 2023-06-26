@@ -5,5 +5,3 @@ $(".Menu__Lista__Item").on("click", function () {
     $(this).addClass("active");
     
     });
-
-    
