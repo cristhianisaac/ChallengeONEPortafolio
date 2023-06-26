@@ -12,6 +12,7 @@
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
+    z-index: 0;
 }
 
 .Contacto__Formulario__Input .Contacto__Formulario__Label {

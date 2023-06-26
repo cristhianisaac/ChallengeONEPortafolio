@@ -3,6 +3,7 @@
     position: sticky;
     top: 0;
     background-color: #f5f5f5;
+    z-index: 2;
 }
 .Header .Contenedor .Nombre{
     margin: 15px 0 15px 0;
