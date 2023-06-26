@@ -116,4 +116,5 @@
 
     .Header .Contenedor .Menu .Menu__Lista li:not(:last-child) {
         display: block;
-    }}
+    }
+}
