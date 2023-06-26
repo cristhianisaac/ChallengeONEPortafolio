@@ -77,6 +77,17 @@
     transition: all 0.1s ease;
 }
 
+.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista{
+    padding: 0;
+    margin: 0;
+}
+.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
+    text-align: justify;
+}
+.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item:hover{
+    color: #2A7AE4;
+}
+
 @media (min-width:0px) {
     .Contacto {
         margin: 20rem;
@@ -84,14 +95,10 @@
 
     .Contacto .Contenedor {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 50rem 0 100rem 0;
-    }
-
-
-    .Contacto .Contenedor .Contacto__Telefono {
-        font-display: none;
     }
 
     .Contacto .Contenedor .Contacto__Formulario {
@@ -112,9 +119,32 @@
         font-size: 16rem;
         font-weight: 400;
     }
-    #Send{
-            width: 100%;
-            margin: 0;
+
+    #mensaje{
+        height: 125rem;
+    }
+
+    .Contacto .Contenedor .Contacto__Menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contacto .Contenedor .Contacto__Menu .Nombre {
+        font-size: 32rem;
+        margin-bottom: 15rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
+        width: 100%;
+    }
+
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
+        margin-bottom: 15rem;
+        font-size: 17rem;
+        text-align: center;
     }
 }
 
@@ -126,18 +156,44 @@
 
     .Contacto .Contenedor {
         display: flex;
-        align-items: center;
         justify-content: center;
+        flex-direction: row;
         margin: 50rem 0 100rem 0;
+        align-items: start;
     }
 
+    .Contacto .Contenedor .Contacto__Menu {
+        width: 50%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .Contacto .Contenedor .Contacto__Menu .Nombre {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width: 100%;
+        text-align: justify;
+    }
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
+        width: 100%;
+    }
 
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
+        margin-top: 45rem;
+        margin-bottom: 0rem;
+        font-size: 17rem;
+        text-align: justify;
+    }
     .Contacto .Contenedor .Contacto__Formulario {
         display: grid;
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
         box-sizing: border-box;
         width: 100%;
+    }
+    .Contacto .Contenedor .Contacto__Formulario h2 {
+        padding:0;
+        margin-top: 0;
     }
     .Contacto__Formulario__Input {
         font-size: 16rem;
@@ -148,10 +204,6 @@
         font-family: inherit;
         font-size: 16rem;
         font-weight: 400;
-    }
-    #Send{
-            width: 100%;
-            margin: 0;
     }
 }
 
@@ -161,20 +213,21 @@
     }
 
     .Contacto .Contenedor {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin: 50rem 0 100rem 0;
     }
 
-    .Contacto .Contenedor .Contacto__Telefono {
-        width: 40%;
-        height: 400rem;
+    .Contacto .Contenedor .Contacto__Menu {
+        width: 50%;
         display: block;
-        background-image: url(../IMG/Contact.webp);
-        background-size:contain;
-		background-repeat: no-repeat;
-    background-position: center center; 
+        display: flex;
+        flex-direction: row;
+    }
+    .Contacto .Contenedor .Contacto__Menu .Nombre {
+        width: 50%;
+        margin-top: 15rem;
+    }
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
+        width: 50%;
     }
 
     .Contacto .Contenedor .Contacto__Formulario {
@@ -182,7 +235,7 @@
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
         box-sizing: border-box;
-        width: 60%;
+        width: 50%;
     }
 
     .Contacto__Formulario__Input {
@@ -194,5 +247,14 @@
         font-family: inherit;
         font-size: 16rem;
         font-weight: 400;
+    }
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista{
+        font-size: 17rem;
+    }
+    
+    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
+        margin-top: 15rem;
+        margin-bottom: 35rem;
+        font-size: 20rem;
     }
 }

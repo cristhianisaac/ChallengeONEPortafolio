@@ -1,7 +1,6 @@
-$(".Menu__Lista__Item").on("click", function () {
-
-    $(".Menu__Lista__Item").removeClass("active");
-    
-    $(this).addClass("active");
-    
-    });
+function ClearSearch() {
+$("#search").val('');
+setTimeout(function() {
+  $("#search").focus();
+}, 10);
+}

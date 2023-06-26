@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     color: #464646;
 }
 
@@ -29,6 +29,9 @@ a:active {
     color: #464646;
 }
 
+.Azul{
+    color: #2A7AE4;
+}
 
 @media (min-width:0px) {
 
@@ -184,10 +187,10 @@ a:active {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    padding: 16rem 31rem;
+    padding: 7rem 15rem;
     text-decoration: none;
     min-width: 100rem;
-    margin-top:10rem;
+    font-weight: bold;
 }
 .Demo:visited{
     color: #ffffff;   
@@ -209,10 +212,10 @@ a:active {
     display: inline-block;
     cursor: pointer;
     color: #2296d4;
-    padding: 16rem 31rem;
+    padding: 7rem 15rem;
     text-decoration: none;
     min-width: 100rem;
-margin-top:10rem;
+    font-weight: bold;
 
 }
 .Repositorio:visited{
@@ -251,15 +254,7 @@ margin-top:10rem;
         font-size: 15rem;
     }
 
-    .Demo {
-        width: 30%;
-        margin-left: 5%;
-        font-size: 14rem;
-    }
-
-    .Repositorio {
-        width: 30%;
-        margin-right: 5%;
+    .Demo , .Repositorio {
         font-size: 14rem;
     }
 
@@ -267,11 +262,7 @@ margin-top:10rem;
 
 @media (max-width:500px) {
 
-    .Demo {
-        margin: 0 !important
-    }
-
-    .Repositorio {
+    .Demo , .Repositorio {
         margin: 0 !important
     }
 
@@ -290,15 +281,7 @@ margin-top:10rem;
         font-size: 17rem;
     }
 
-    .Demo {
-        width: 30%;
-        margin-left: 5%;
-        font-size: 14rem;
-    }
-
-    .Repositorio {
-        width: 30%;
-        margin-right: 5%;
+    .Demo, .Repositorio {
         font-size: 14rem;
     }
 }
@@ -313,15 +296,8 @@ margin-top:10rem;
         font-size: 19rem;
     }
 
-    .Demo {
+    .Demo , .Repositorio {
         font-size: 17rem;
-        width: auto;
-        margin: 0;
-    }
-
-    .Repositorio {
-        font-size: 17rem;
-        width: auto;
         margin: 0;
     }
 }
