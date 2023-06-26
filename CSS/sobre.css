@@ -1,7 +1,7 @@
 @media (min-width:0px) {
 
     .Sobre .Contenedor {
-        margin: 50px 0 50px 0;
+        margin: 50rem 0 50rem 0;
     }
 
     .Sobre .Contenedor .Sobre__Descripcion {
@@ -9,22 +9,22 @@
     }
 
     .Sobre .Contenedor img {
-        width: 150px;
+        width: 150rem;
     }
 }
 
 @media screen and (min-width:800px) {
 
     .titulo {
-        font-size: 18px;
+        font-size: 18rem;
     }
 
     .subtitulo {
-        font-size: 16px;
+        font-size: 16rem;
     }
 
     .Sobre .Contenedor {
-        margin: 50px 0 50px 0;
+        margin: 50rem 0 50rem 0;
     }
 
     .Sobre .Contenedor .Sobre__Descripcion {
@@ -32,13 +32,13 @@
     }
 
     .Sobre .Contenedor img {
-        width: 150px;
+        width: 150rem;
     }
 }
 @media screen and (min-width:1024px) {
 
     .Sobre .Contenedor {
-        margin: 50px 0 50px 0;
+        margin: 50rem 0 50rem 0;
     }
 
     .Sobre .Contenedor .Sobre__Descripcion {
@@ -46,7 +46,7 @@
     }
 
     .Sobre .Contenedor img {
-        width: 200px;
-        margin-bottom: 50px;
+        width: 200rem;
+        margin-bottom: 50rem;
     }
 }

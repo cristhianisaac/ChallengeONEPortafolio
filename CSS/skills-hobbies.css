@@ -1,10 +1,10 @@
 
 	#Skills .Contenedor{	
-    margin: 50px 0 0 0;
+    margin: 50rem 0 0 0;
 }
 
 	#Hobbies .Contenedor{	
-		margin: 0 0 50px 0;
+		margin: 0 0 50rem 0;
 	}
 .Skills-Hobbies .Contenedor {
     display: flex;
@@ -39,21 +39,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 0 50px 0;
+    margin: 0 0 50rem 0;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 10rem;
 }
 
 .Cuadricula div i {
     margin-top: auto;
     color: #2a7ae4;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 50rem;
+    margin-bottom: 20rem;
 }
 
 .Cuadricula div label {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .Cuadricula div label {
@@ -67,7 +67,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin: px 0 0 0;
+        margin: rem 0 0 0;
     }
 
     .Skills-Hobbies .Contenedor {
@@ -75,7 +75,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin: 0 0 50px 0;
+        margin: 0 0 50rem 0;
     }
 
     .Cuadricula {
@@ -84,7 +84,7 @@
 
     .Cuadricula .Cuadricula__Item {
         width: 45%;
-        height: 150px;
+        height: 150rem;
         text-align: center;
     }
     
@@ -115,7 +115,7 @@
 @media screen and (min-width:1024px) {
     .Cuadricula .Cuadricula__Item {
         width: 15%;
-        height: 180px;
+        height: 180rem;
         text-align: left;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0 50px 0;
+    margin: 50rem 0 50rem 0;
 }
 
 .Experiencias .Contenedor h2 {
@@ -11,7 +11,7 @@
 
 .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Imagen {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 10rem;
 }
 
 .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion {
@@ -25,14 +25,14 @@
 @media (min-width:0px) {
 
     .Experiencias .Contenedor .Experiencia__Item {
-        margin: 15px 0 15px 0;
+        margin: 15rem 0 15rem 0;
         width: 100%;
-        padding-bottom: 15px;
-        border: solid 1px #ddd;
-        -webkit-box-shadow: 0 0 3px #bbb;
-        box-shadow: 0 0 3px #bbb;
-        padding: 10px;
-        border-radius: 10px;
+        padding-bottom: 15rem;
+        border: solid 1rem #ddd;
+        -webkit-box-shadow: 0 0 3rem #bbb;
+        box-shadow: 0 0 3rem #bbb;
+        padding: 10rem;
+        border-radius: 10rem;
     }
 
     .Experiencias .Contenedor .Non {
@@ -54,17 +54,17 @@
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Imagen Img {
         width: 90%;
-        margin: 50px 0 50px 0;
-        border-radius: 10px;
+        margin: 50rem 0 50rem 0;
+        border-radius: 10rem;
     }
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion {
-        margin-top: 10px;
+        margin-top: 10rem;
     }
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion label {
         width: 100%;
-        margin: 5px 0 5px 0;
+        margin: 5rem 0 5rem 0;
         display: block;
     }
 }
@@ -75,18 +75,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 0 50px 0;
+        margin: 50rem 0 50rem 0;
     }
 
     .Experiencias .Contenedor .Experiencia__Item {
-        margin: 15px 0 15px 0;
+        margin: 15rem 0 15rem 0;
         width: 100%;
-        padding-bottom: 15px;
-        border: solid 1px #ddd;
-        -webkit-box-shadow: 0 0 3px #bbb;
-        box-shadow: 0 0 3px #bbb;
-        padding: 10px;
-        border-radius: 10px;
+        padding-bottom: 15rem;
+        border: solid 1rem #ddd;
+        -webkit-box-shadow: 0 0 3rem #bbb;
+        box-shadow: 0 0 3rem #bbb;
+        padding: 10rem;
+        border-radius: 10rem;
     }
 
     .Experiencias .Contenedor .Non {
@@ -108,17 +108,17 @@
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Imagen Img {
         width: 90%;
-        margin: 50px 0 50px 0;
-        border-radius: 10px;
+        margin: 50rem 0 50rem 0;
+        border-radius: 10rem;
     }
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion {
-        margin-top: 10px;
+        margin-top: 10rem;
     }
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion label {
         width: 100%;
-        margin: 5px 0 5px 0;
+        margin: 5rem 0 5rem 0;
         display: block;
     }
 }
@@ -129,18 +129,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 0 50px 0;
+        margin: 50rem 0 50rem 0;
     }
 
     .Experiencias .Contenedor .Experiencia__Item {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 15px 0 15px 0;
+        margin: 15rem 0 15rem 0;
         width: 100%;
         border: none;
-        -webkit-box-shadow: 0 0 0px #bbb;
-        box-shadow: 0 0 0px #bbb;
+        -webkit-box-shadow: 0 0 0rem #bbb;
+        box-shadow: 0 0 0rem #bbb;
     }
     .Experiencias .Contenedor .Non {
         display: flex;
@@ -160,8 +160,8 @@
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Imagen Img {
         width: 90%;
-        margin: 50px 0 50px 0;
-        border-radius: 10px;
+        margin: 50rem 0 50rem 0;
+        border-radius: 10rem;
     }
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion {
@@ -171,7 +171,7 @@
 
     .Experiencias .Contenedor .Experiencia__Item .Experiencia__Item__Descripcion label {
         width: 100%;
-        margin: 5px 0 5px 0;
+        margin: 5rem 0 5rem 0;
         display: block;
     }
 }

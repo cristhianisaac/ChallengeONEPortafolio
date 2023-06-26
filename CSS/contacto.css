@@ -10,14 +10,14 @@
     position: relative;
     margin: auto;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10rem;
     overflow: hidden;
 }
 
 .Contacto__Formulario__Input .Contacto__Formulario__Label {
     position: absolute;
-    top: 20px;
-    left: 12px;
+    top: 20rem;
+    left: 12rem;
     color: rgba(10, 10, 10 0.5);
     transform-origin: 0 0;
     transform: translate3d(0, 0, 0);
@@ -42,34 +42,34 @@
     appearance: none;
     width: 100%;
     border: 0;
-    padding: 16px 12px 0 12px;
-    height: 56px;
+    padding: 16rem 12rem 0 12rem;
+    height: 56rem;
     background: rgba(255, 255, 255);
-    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.3);
+    box-shadow: inset 0 -1rem 0 rgba(10, 10, 10 0.3);
     color: #000;
     transition: all 0.15s ease;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .Contacto__Formulario__Input input:hover {
     background: rgba(10, 10, 10 0.04);
-    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.5);
+    box-shadow: inset 0 -1rem 0 rgba(10, 10, 10 0.5);
 }
 
 .Contacto__Formulario__Input input:not(:placeholder-shown)+.Contacto__Formulario__Label {
     color: rgba(10, 10, 10 0.5);
-    transform: translate3d(0, -12px, 0) scale(0.75);
+    transform: translate3d(0, -12rem, 0) scale(0.75);
 }
 
 .Contacto__Formulario__Input input:focus {
     background: rgba(10, 10, 10 0.05);
     outline: none;
-    box-shadow: inset 0 -2px 0 #0077ff;
+    box-shadow: inset 0 -2rem 0 #0077ff;
 }
 
 .Contacto__Formulario__Input input:focus+.Contacto__Formulario__Label {
     color: #0077ff;
-    transform: translate3d(0, -12px, 0) scale(0.75);
+    transform: translate3d(0, -12rem, 0) scale(0.75);
 }
 
 .Contacto__Formulario__Input input:focus+.Contacto__Formulario__Label+.Contacto__Formulario__Focus-BG {
@@ -79,14 +79,14 @@
 
 @media (min-width:0px) {
     .Contacto {
-        margin: 20px;
+        margin: 20rem;
     }
 
     .Contacto .Contenedor {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 50px 0 100px 0;
+        margin: 50rem 0 100rem 0;
     }
 
 
@@ -103,13 +103,13 @@
     }
 
     .Contacto__Formulario__Input {
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 400;
     }
     #Send{
@@ -121,14 +121,14 @@
 @media screen and (min-width:800px) {
 
     .Contacto {
-        margin: 100px;
+        margin: 100rem;
     }
 
     .Contacto .Contenedor {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 50px 0 100px 0;
+        margin: 50rem 0 100rem 0;
     }
 
 
@@ -140,13 +140,13 @@
         width: 100%;
     }
     .Contacto__Formulario__Input {
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 400;
     }
     #Send{
@@ -157,19 +157,19 @@
 
 @media screen and (min-width:1024px) {
     .Contacto {
-        margin: 100px;
+        margin: 100rem;
     }
 
     .Contacto .Contenedor {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 50px 0 100px 0;
+        margin: 50rem 0 100rem 0;
     }
 
     .Contacto .Contenedor .Contacto__Telefono {
         width: 40%;
-        height: 400px;
+        height: 400rem;
         display: block;
         background-image: url(../IMG/Contact.webp);
         background-size:contain;
@@ -186,13 +186,13 @@
     }
 
     .Contacto__Formulario__Input {
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16px;
+        font-size: 16rem;
         font-weight: 400;
     }
 }

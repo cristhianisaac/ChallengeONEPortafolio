@@ -25,7 +25,7 @@
 
     .Banner .Contenedor {
         flex-direction: column-reverse;
-        margin-top: 0px
+        margin-top: 0rem
     }
 
     .Banner__Descripcion{
@@ -33,9 +33,9 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion h1 {
-        font-size: 25px;
-        padding-bottom: 10px;
-        line-height: 28px;
+        font-size: 25rem;
+        padding-bottom: 10rem;
+        line-height: 28rem;
     }
 
 
@@ -44,7 +44,7 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
-        font-size: 14px;
+        font-size: 14rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -53,17 +53,17 @@
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
         display: flex;
-        margin: 15px 0 5px 0;
+        margin: 15rem 0 5rem 0;
         width: 35%;
     }
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
-        font-size: 16px;
+        font-size: 16rem;
     }
 }
 
 @media (max-width:500px) {
     .Banner .Contenedor .Banner__Descripcion h1 {
-        font-size: 22px !important
+        font-size: 22rem !important
     }
 }
 
@@ -71,17 +71,17 @@
 
     .Banner .Contenedor {
         flex-direction: row;
-    margin: 50px 0 50px 0;
+    margin: 50rem 0 50rem 0;
     }
     .Banner .Contenedor .Banner__Descripcion {
         width: 65%;
     }
 
     .Banner .Contenedor .Banner__Descripcion h1 {
-    font-size: 28px;
-    margin-block-end: 5px;
-    padding-bottom: 10px;
-    line-height: 60px;
+    font-size: 28rem;
+    margin-block-end: 5rem;
+    padding-bottom: 10rem;
+    line-height: 60rem;
     width: 100%;
     }
     .Banner .Contenedor .Banner__Imagen {
@@ -89,17 +89,17 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
-        font-size: 17px;
+        font-size: 17rem;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
         display: flex;
-        margin-right: 50px;
+        margin-right: 50rem;
     }
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
-        font-size: 19px;
+        font-size: 19rem;
     }
 }
 @media screen and (min-width:1024px) {
@@ -111,17 +111,17 @@
         width: 55%;
     }
     .Banner .Contenedor .Banner__Descripcion h1 {
-    font-size: 32px;
+    font-size: 32rem;
     }
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
-        font-size: 20px;
+        font-size: 20rem;
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
         display: flex;
-        margin: 0px;
+        margin: 0rem;
     }
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
-        font-size: 22px;
+        font-size: 22rem;
     }
 }

@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     user-select: none;
+   font-size: 1px;/*for using REM units*/
 }
 
 * {
@@ -44,7 +45,7 @@ a:active {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
+        margin-top: 25rem;
     }
 
     .Contenedor {
@@ -55,22 +56,22 @@ a:active {
     h2,
     h3,
     h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 40px;
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 40rem;
         width: 100%;
     }
 
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 25px;
-        font-size: 15px;
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 25rem;
+        font-size: 15rem;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 22rem;
         font-weight: bolder;
     }
 }
@@ -90,33 +91,34 @@ a:active {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
+        margin-top: 25rem;
     }
 
     .Contenedor {
         width: 95%;
+        min-width: 925rem;
     }
 
     h1,
     h2,
     h3,
     h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 60px;
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 60rem;
         width: 100%;
     }
 
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 27px;
-        font-size: 17px;
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 27rem;
+        font-size: 17rem;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 25rem;
         font-weight: bolder;
     }
 }
@@ -136,34 +138,34 @@ a:active {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
+        margin-top: 25rem;
     }
 
     .Contenedor {
         width: 70%;
-        min-width: 1040px;
+        min-width: 1040rem;
     }
 
     h1,
     h2,
     h3,
     h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 60px;
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 60rem;
         width: 100%;
     }
 
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 30px;
-        font-size: 20px;
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 30rem;
+        font-size: 20rem;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 28rem;
         font-weight: bolder;
     }
 }
@@ -177,15 +179,15 @@ a:active {
 
 .Demo {
     background-color: #2296d4;
-    border-radius: 5px;
-    border: 1px solid #246ad4;
+    border-radius: 5rem;
+    border: 1rem solid #246ad4;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    padding: 16px 31px;
+    padding: 16rem 31rem;
     text-decoration: none;
-    min-width: 100px;
-    margin-top:10px;
+    min-width: 100rem;
+    margin-top:10rem;
 }
 .Demo:visited{
     color: #ffffff;   
@@ -197,20 +199,20 @@ a:active {
 
 .Demo:active {
     position: relative;
-    top: 1px;
+    top: 1rem;
 }
 
 .Repositorio {
     background-color: #ffffff;
-    border-radius: 5px;
-    border: 1px solid #2296d4;
+    border-radius: 5rem;
+    border: 1rem solid #2296d4;
     display: inline-block;
     cursor: pointer;
     color: #2296d4;
-    padding: 16px 31px;
+    padding: 16rem 31rem;
     text-decoration: none;
-    min-width: 100px;
-margin-top:10px;
+    min-width: 100rem;
+margin-top:10rem;
 
 }
 .Repositorio:visited{
@@ -223,7 +225,7 @@ margin-top:10px;
 
 .Repositorio:active {
     position: relative;
-    top: 1px;
+    top: 1rem;
 }
 
 
@@ -232,33 +234,33 @@ margin-top:10px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding: 10px 0 10px 0;
-    line-height: 18px;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
+    padding: 10rem 0 10rem 0;
+    line-height: 18rem;
 }
 
 @media (min-width:0px) {
 
 
     .titulo {
-        font-size: 17px;
+        font-size: 17rem;
     }
 
     .subtitulo {
-        font-size: 15px;
+        font-size: 15rem;
     }
 
     .Demo {
         width: 30%;
         margin-left: 5%;
-        font-size: 14px;
+        font-size: 14rem;
     }
 
     .Repositorio {
         width: 30%;
         margin-right: 5%;
-        font-size: 14px;
+        font-size: 14rem;
     }
 
 }
@@ -274,51 +276,51 @@ margin-top:10px;
     }
 
     .Contenedor {
-        min-width: 360px;
+        min-width: 360rem;
     }
 }
 
 @media screen and (min-width:800px) {
 
     .titulo {
-        font-size: 19px;
+        font-size: 19rem;
     }
 
     .subtitulo {
-        font-size: 17px;
+        font-size: 17rem;
     }
 
     .Demo {
         width: 30%;
         margin-left: 5%;
-        font-size: 14px;
+        font-size: 14rem;
     }
 
     .Repositorio {
         width: 30%;
         margin-right: 5%;
-        font-size: 14px;
+        font-size: 14rem;
     }
 }
 
 @media screen and (min-width:1024px) {
 
     .titulo {
-        font-size: 21px;
+        font-size: 21rem;
     }
 
     .subtitulo {
-        font-size: 19px;
+        font-size: 19rem;
     }
 
     .Demo {
-        font-size: 17px;
+        font-size: 17rem;
         width: auto;
         margin: 0;
     }
 
     .Repositorio {
-        font-size: 17px;
+        font-size: 17rem;
         width: auto;
         margin: 0;
     }
