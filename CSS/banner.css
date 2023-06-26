@@ -1,0 +1,127 @@
+
+.Banner .Contenedor {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.Banner .Contenedor .Banner__Imagen {
+	aspect-ratio : 1 / 1;
+        background-image: url(../IMG/profile-pic_solid.webp);
+        background-size:contain;
+		background-repeat: no-repeat;
+    background-position: center center; 
+    
+}
+
+.Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:0px) {
+
+    .Banner .Contenedor {
+        flex-direction: column-reverse;
+        margin-top: 0px
+    }
+
+    .Banner__Descripcion{
+        width: 100%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 28px;
+    }
+
+
+    .Banner .Contenedor .Banner__Imagen {
+        width: 50%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin: 15px 0 5px 0;
+        width: 35%;
+    }
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    .Banner .Contenedor .Banner__Descripcion h1 {
+        font-size: 22px !important
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    .Banner .Contenedor {
+        flex-direction: row;
+    margin: 50px 0 50px 0;
+    }
+    .Banner .Contenedor .Banner__Descripcion {
+        width: 65%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion h1 {
+    font-size: 28px;
+    margin-block-end: 5px;
+    padding-bottom: 10px;
+    line-height: 60px;
+    width: 100%;
+    }
+    .Banner .Contenedor .Banner__Imagen {
+        width: 30%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 17px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin-right: 50px;
+    }
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .Banner .Contenedor .Banner__Imagen {
+        width: 35%;
+
+    }
+    .Banner .Contenedor .Banner__Descripcion {
+        width: 55%;
+    }
+    .Banner .Contenedor .Banner__Descripcion h1 {
+    font-size: 32px;
+    }
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 20px;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin: 0px;
+    }
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i{
+        font-size: 22px;
+    }
+}

@@ -10,14 +10,14 @@
     position: relative;
     margin: auto;
     width: 100%;
-    border-radius: 10rem;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .Contacto__Formulario__Input .Contacto__Formulario__Label {
     position: absolute;
-    top: 20rem;
-    left: 12rem;
+    top: 20px;
+    left: 12px;
     color: rgba(10, 10, 10 0.5);
     transform-origin: 0 0;
     transform: translate3d(0, 0, 0);
@@ -42,34 +42,34 @@
     appearance: none;
     width: 100%;
     border: 0;
-    padding: 16rem 12rem 0 12rem;
-    height: 56rem;
+    padding: 16px 12px 0 12px;
+    height: 56px;
     background: rgba(255, 255, 255);
-    box-shadow: inset 0 -1rem 0 rgba(10, 10, 10 0.3);
+    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.3);
     color: #000;
     transition: all 0.15s ease;
-    margin-bottom: 10rem;
+    margin-bottom: 10px;
 }
 
 .Contacto__Formulario__Input input:hover {
     background: rgba(10, 10, 10 0.04);
-    box-shadow: inset 0 -1rem 0 rgba(10, 10, 10 0.5);
+    box-shadow: inset 0 -1px 0 rgba(10, 10, 10 0.5);
 }
 
 .Contacto__Formulario__Input input:not(:placeholder-shown)+.Contacto__Formulario__Label {
     color: rgba(10, 10, 10 0.5);
-    transform: translate3d(0, -12rem, 0) scale(0.75);
+    transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
 .Contacto__Formulario__Input input:focus {
     background: rgba(10, 10, 10 0.05);
     outline: none;
-    box-shadow: inset 0 -2rem 0 #0077ff;
+    box-shadow: inset 0 -2px 0 #0077ff;
 }
 
 .Contacto__Formulario__Input input:focus+.Contacto__Formulario__Label {
     color: #0077ff;
-    transform: translate3d(0, -12rem, 0) scale(0.75);
+    transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
 .Contacto__Formulario__Input input:focus+.Contacto__Formulario__Label+.Contacto__Formulario__Focus-BG {
@@ -77,28 +77,21 @@
     transition: all 0.1s ease;
 }
 
-.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista{
-    padding: 0;
-    margin: 0;
-}
-.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
-    text-align: justify;
-}
-.Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item:hover{
-    color: #2A7AE4;
-}
-
 @media (min-width:0px) {
     .Contacto {
-        margin: 20rem;
+        margin: 20px;
     }
 
     .Contacto .Contenedor {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 50rem 0 100rem 0;
+        margin: 50px 0 100px 0;
+    }
+
+
+    .Contacto .Contenedor .Contacto__Telefono {
+        font-display: none;
     }
 
     .Contacto .Contenedor .Contacto__Formulario {
@@ -110,80 +103,35 @@
     }
 
     .Contacto__Formulario__Input {
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 400;
     }
-
-    #mensaje{
-        height: 125rem;
-    }
-
-    .Contacto .Contenedor .Contacto__Menu {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Contacto .Contenedor .Contacto__Menu .Nombre {
-        font-size: 32rem;
-        margin-bottom: 15rem;
-        width: 100%;
-        text-align: center;
-    }
-
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
-        width: 100%;
-    }
-
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
-        margin-bottom: 15rem;
-        font-size: 17rem;
-        text-align: center;
+    #Send{
+            width: 100%;
+            margin: 0;
     }
 }
 
 @media screen and (min-width:800px) {
 
     .Contacto {
-        margin: 100rem;
+        margin: 100px;
     }
 
     .Contacto .Contenedor {
         display: flex;
+        align-items: center;
         justify-content: center;
-        flex-direction: row;
-        margin: 50rem 0 100rem 0;
-        align-items: start;
+        margin: 50px 0 100px 0;
     }
 
-    .Contacto .Contenedor .Contacto__Menu {
-        width: 50%;
-        display: block;
-        display: flex;
-        flex-direction: column;
-    }
-    .Contacto .Contenedor .Contacto__Menu .Nombre {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        width: 100%;
-        text-align: justify;
-    }
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
-        width: 100%;
-    }
 
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
-        margin-top: 45rem;
-        margin-bottom: 0rem;
-        font-size: 17rem;
-        text-align: justify;
-    }
     .Contacto .Contenedor .Contacto__Formulario {
         display: grid;
         -webkit-text-size-adjust: 100%;
@@ -191,43 +139,42 @@
         box-sizing: border-box;
         width: 100%;
     }
-    .Contacto .Contenedor .Contacto__Formulario h2 {
-        padding:0;
-        margin-top: 0;
-    }
     .Contacto__Formulario__Input {
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 400;
+    }
+    #Send{
+            width: 100%;
+            margin: 0;
     }
 }
 
 @media screen and (min-width:1024px) {
     .Contacto {
-        margin: 100rem;
+        margin: 100px;
     }
 
     .Contacto .Contenedor {
-        margin: 50rem 0 100rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 100px 0;
     }
 
-    .Contacto .Contenedor .Contacto__Menu {
-        width: 50%;
+    .Contacto .Contenedor .Contacto__Telefono {
+        width: 40%;
+        height: 400px;
         display: block;
-        display: flex;
-        flex-direction: row;
-    }
-    .Contacto .Contenedor .Contacto__Menu .Nombre {
-        width: 50%;
-        margin-top: 15rem;
-    }
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista {
-        width: 50%;
+        background-image: url(../IMG/Contact.webp);
+        background-size:contain;
+		background-repeat: no-repeat;
+    background-position: center center; 
     }
 
     .Contacto .Contenedor .Contacto__Formulario {
@@ -235,26 +182,17 @@
         -webkit-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
         box-sizing: border-box;
-        width: 50%;
+        width: 60%;
     }
 
     .Contacto__Formulario__Input {
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .Contacto__Formulario__Input input {
         font-family: inherit;
-        font-size: 16rem;
+        font-size: 16px;
         font-weight: 400;
-    }
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista{
-        font-size: 17rem;
-    }
-    
-    .Contacto .Contenedor .Contacto__Menu .Contacto__Menu__Lista .Contacto__Menu_Lista__Item{
-        margin-top: 15rem;
-        margin-bottom: 35rem;
-        font-size: 20rem;
     }
 }
