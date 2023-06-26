@@ -1,0 +1,120 @@
+
+.Banner .Contenedor {
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.Banner .Contenedor .Banner__Imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:0px) {
+
+    .Banner .Contenedor {
+        flex-direction: column-reverse;
+        margin-top: 0px !important
+    }
+
+    .Banner__Descripcion{
+        width: 100%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 28px;
+    }
+
+
+    .Banner .Contenedor .Banner__Imagen {
+        width: 50%;
+    }
+    .Banner .Contenedor .Banner__Imagen img {
+        width: 100%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin: 15px 0 5px 0;
+        width: 35%;
+    }
+}
+
+@media (max-width:500px) {
+    .Banner .Contenedor .Banner__Descripcion h1 {
+        font-size: 22px !important
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    .Banner .Contenedor {
+        flex-direction: row;
+    }
+    .Banner .Contenedor .Banner__Descripcion {
+        width: 65%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion h1 {
+        font-size: 28px;
+    }
+    .Banner .Contenedor .Banner__Imagen {
+        width: 35%;
+    }
+    .Banner .Contenedor .Banner__Imagen img {
+        width: 85%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 17px;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .Banner .Contenedor .Banner__Imagen {
+        width: 40%;
+
+    }
+    .Banner .Contenedor .Banner__Descripcion {
+        width: 55%;
+    }
+
+
+    .Banner .Contenedor .Banner__Imagen img {
+        width: 85%;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
+        font-size: 20px;
+    }
+
+    .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
+        display: flex;
+        margin-right: 50px;
+    }
+}

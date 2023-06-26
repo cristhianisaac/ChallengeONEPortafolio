@@ -1,6 +1,6 @@
-$(".item").on("click", function () {
+$(".Menu__Lista__Item").on("click", function () {
 
-    $(".item").removeClass("active");
+    $(".Menu__Lista__Item").removeClass("active");
     
     $(this).addClass("active");
     

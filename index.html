@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cristhian García</title>
-  <link rel="stylesheet" href="CSS/mobile-xs.css">
-  <link rel="stylesheet" href="CSS/mobile.css">
-  <link rel="stylesheet" href="CSS/tablet.css">
-  <link rel="stylesheet" href="CSS/desktop.css">
   <link rel="stylesheet" href="CSS/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +12,22 @@
   <link rel="stylesheet" href="SWEETALERT/sweetalert2.min.css">
   <link rel="stylesheet" href="SWEETALERT/bulma.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  
+  <link rel="stylesheet" href="CSS/mobile-xs.css">
+  <link rel="stylesheet" href="CSS/mobile.css">
+  <link rel="stylesheet" href="CSS/tablet.css">
+  <link rel="stylesheet" href="CSS/desktop.css">
+
+  
+  <link rel="stylesheet" href="CSS/header.css">
+  <link rel="stylesheet" href="CSS/banner.css">
+  <link rel="stylesheet" href="CSS/sobre.css">
+  <link rel="stylesheet" href="CSS/skills-hobbies.css">
+  <link rel="stylesheet" href="CSS/escuelas.css">
+  <link rel="stylesheet" href="CSS/experiencia.css">
+  <link rel="stylesheet" href="CSS/contacto.css">
+
 </head>
 
 <body>
@@ -23,29 +35,27 @@
     <div class="Header">
       <div class="Contenedor">
         <div class="Nombre">
-          <a class="item" href="#top">
+          <a class="Menu__Lista__Item" href="#top">
             <i class="fa fa-bolt"></i>
             <b> Cristhian García</b>
           </a>
         </div>
         <div class="Menu">
-          <ul class="Menu-Lista">
+          <ul class="Menu__Lista">
             <li>
-              <a class="item" href="#SobreMi">Sobre Mi</a>
+              <a class="Menu__Lista__Item" href="#Sobre">Sobre Mi</a>
             </li>
             <li>
-              <a class="item" href="#Skills">Skills</a>
+              <a class="Menu__Lista__Item" href="#Skills-Hobbies">Skills-Hobbies</a>
             </li>
             <li>
-              <a class="item" href="#Formacion">Formación</a>
+              <a class="Menu__Lista__Item" href="#Formacion">Formación</a>
             </li>
             <li>
-              <a class="item" href="#Proyectos">Proyectos</a>
+              <a class="Menu__Lista__Item" href="#Proyectos">Proyectos</a>
             </li>
             <li>
-              <a class="item" href="#Contacto">
-                cristhianigd@outlook.com
-              </a>
+              <a class="Menu__Lista__Item" href="#Contacto"> cristhianigd@outlook.com</a>
             </li>
           </ul>
         </div>
@@ -53,14 +63,14 @@
     </div>
     <div class="Banner" id="Banner">
       <div class="Contenedor">
-        <div class="Banner-Derecha">
+        <div class="Banner__Descripcion">
           <h1>Hola, mi nombre es Cristhian García y construyo paginas web</h1>
           <p>Una de mis principales fortalezas es mi capacidad para trabajar en equipo, lo que me permite colaborar de
             manera efectiva con otros profesionales para lograr los objetivos establecidos. También destaco por mi
             habilidad para resolver problemas de manera eficiente, lo que me permite encontrar soluciones rápidas y
             efectivas a los desafíos que se me presentan.</p>
           </p>
-          <ul class="Redes">
+          <ul class="Banner__Descripcion__Redes">
             <li>
               <a target="_blank" href="https://github.com/cristhianisaac">Git Hub <i
                   class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>
@@ -81,14 +91,14 @@
             </li>
           </ul>
         </div>
-        <div class="Banner-Izquierda">
+        <div class="Banner__Imagen">
           <img src="IMG/profile-pic_solid.png" />
         </div>
       </div>
     </div>
-    <div class="SobreMi" id="SobreMi">
+    <div class="Sobre" id="Sobre">
       <div class="Contenedor">
-        <div class="Derecha">
+        <div class="Sobre__Descripcion">
           <h2>Sobre mi...</h2>
           <p>Como desarrollador de software, me considero capaz de crear, implementar y administrar sistemas y
             aplicaciones informáticas que cumplan con altos estándares de calidad. Mi objetivo es apoyar la
@@ -97,68 +107,68 @@
             laboral.</p>
           <p>En resumen, soy un profesional comprometido con mi trabajo, con una sólida formación técnica y habilidades
             interpersonales que me permiten trabajar en equipo y resolver problemas de manera efectiva. Estoy seguro de
-            que mi experiencia y habilidades serán un activo valioso para cualquier organización en la que tenga la
+            que mi Experiencia__Item y habilidades serán un activo valioso para cualquier organización en la que tenga la
             oportunidad de trabajar.</p>
         </div>
         <img src="IMG/firma.png" />
       </div>
     </div>
-    <div class="Skills" id="Skills">
+    <div class="Skills-Hobbies" id="Skills">
       <div class="Contenedor">
         <h2>Skills</h2>
         <div class="Cuadricula">
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-html5"></i>
             <label>Html 5</label>
           </div>
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-square-js"></i>
             <label>Java Script</label>
           </div>
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-php"></i>
             <label>PHP</label>
           </div>
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-node"></i>
             <label>Node JS</label>
           </div>
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-react"></i>
             <label>React</label>
           </div>
-          <div class="Skill">
+          <div class="Cuadricula__Item">
             <i class="fa-brands fa-css3-alt"></i>
             <label>CSS</label>
           </div>
         </div>
       </div>
     </div>
-    <div class="Hobbies">
+    <div class="Skills-Hobbies">
       <div class="Contenedor">
         <h2>Hobbies</h2>
         <div class="Cuadricula">
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-gamepad"></i>
             <label>Video Juegos</label>
           </div>
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-book"></i>
             <label>Leer</label>
           </div>
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-headphones-simple"></i>
             <label>Oir Música</label>
           </div>
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-tv"></i>
             <label>Ver Series</label>
           </div>
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-kitchen-set"></i>
             <label>Reposteria</label>
           </div>
-          <div class="Hobbie">
+          <div class="Cuadricula__Item">
             <i class="fa-solid fa-camera-retro"></i>
             <label>Tomar Fotos</label>
           </div>
@@ -168,22 +178,22 @@
     <div class="Escuelas" id="Formacion">
       <div class="Contenedor">
         <h2>Formación académica</h2>
-        <div class="Lista-Escuelas">
-          <div class="Escuela">
+        <div class="Escuelas__Lista">
+          <div class="Escuelas__Lista__Item">
             <div class="Imagen">
               <img src="IMG/itsh.png" />
             </div>
             <label class="titulo">Ing. Sistemas Computacionales</label>
             <label class="subtitulo">2012 - ITSH</label>
           </div>
-          <div class="Escuela">
+          <div class="Escuelas__Lista__Item">
             <div class="Imagen">
               <img src="IMG/itsh.png" />
             </div>
             <label class="titulo">Alura</label>
             <label class="subtitulo">2012 - ITSH</label>
           </div>
-          <div class="Escuela">
+          <div class="Escuelas__Lista__Item">
             <div class="Imagen">
               <img src="IMG/alura.png" />
             </div>
@@ -196,11 +206,11 @@
     <div class="Experiencias" id="Proyectos">
       <div class="Contenedor">
         <h2>Experiencia Profesional</h2>
-        <div class="Experiencia Non">
-          <div class="Imagen-XP">
+        <div class="Experiencia__Item Non">
+          <div class="Experiencia__Item__Imagen">
             <img src="IMG/Encripador.png" />
           </div>
-          <div class="Descripcion">
+          <div class="Experiencia__Item__Descripcion">
             <label class="titulo">Encriptador de texto</label>
             <label class="subtitulo">Challenge Oracle</label>
             <a class="Repositorio" target="_blank"
@@ -209,14 +219,14 @@
               href="https://cristhianisaac.github.io/ChallengeONEEncriptador/index.html">Demo</a>
           </div>
         </div>
-        <div class="Experiencia Par">
-          <div class="Descripcion">
+        <div class="Experiencia__Item Par">
+          <div class="Experiencia__Item__Descripcion">
             <label class="titulo">Juego Creado con Html, CSS y JavaScript</label>
             <label class="subtitulo">Challenge Oracle</label>
             <a class="Repositorio" target="_blank">Repositorio</a>
             <a class="Demo" target="_blank">Demo</a>
           </div>
-          <div class="Imagen-XP">
+          <div class="Experiencia__Item__Imagen">
             <img src="IMG/Ahorcado.png" />
           </div>
         </div>
@@ -224,32 +234,31 @@
     </div>
     <div class="Contacto" id="Contacto">
       <div class="Contenedor">
-        <div class="Telefono">
-          <img src="IMG/Contact.png" />
+        <div class="Contacto__Telefono">
         </div>
-        <div class="Formulario">
+        <div class="Contacto__Formulario">
           <h2>Contacto</h2>
-          <p>¿Quieres contactarme? <br />Complete el siguiente formulario y me pondré en contacto con usted lo antes
+          <p>¿Quieres contactarme? <br />Complete el siguiente Contacto__Formulario y me pondré en contacto con usted lo antes
             posible. </p>
-          <label for="nom" class="inp">
+          <label for="nom" class="Contacto__Formulario__Input">
             <input type="text" id="nom" placeholder="&nbsp;" />
-            <span class="label">Nombre</span>
-            <span class="focus-bg"></span>
+            <span class="Contacto__Formulario__Label">Nombre</span>
+            <span class="Contacto__Formulario__Focus-BG"></span>
           </label>
-          <label for="mail" class="inp">
+          <label for="mail" class="Contacto__Formulario__Input">
             <input type="email" id="mail" placeholder="&nbsp;" />
-            <span class="label">Correo</span>
-            <span class="focus-bg"></span>
+            <span class="Contacto__Formulario__Label">Correo</span>
+            <span class="Contacto__Formulario__Focus-BG"></span>
           </label>
-          <label for="asunto" class="inp">
+          <label for="asunto" class="Contacto__Formulario__Input">
             <input type="text" id="asunto" placeholder="&nbsp;" />
-            <span class="label">Asunto</span>
-            <span class="focus-bg"></span>
+            <span class="Contacto__Formulario__Label">Asunto</span>
+            <span class="Contacto__Formulario__Focus-BG"></span>
           </label>
-          <label for="mensaje" class="inp">
+          <label for="mensaje" class="Contacto__Formulario__Input">
             <input type="text" id="mensaje" placeholder="&nbsp;" />
-            <span class="label">Mensaje</span>
-            <span class="focus-bg"></span>
+            <span class="Contacto__Formulario__Label">Mensaje</span>
+            <span class="Contacto__Formulario__Focus-BG"></span>
           </label>
           <button class="Demo" id="Send">Enviar Mensaje</button>
         </div>
