@@ -1,10 +1,16 @@
 
+	#Skills .Contenedor{	
+    margin: 50px 0 0 0;
+}
+
+	#Hobbies .Contenedor{	
+		margin: 0 0 50px 0;
+	}
 .Skills-Hobbies .Contenedor {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0 0 0;
 }
 
 .Skills-Hobbies .Contenedor {
@@ -12,7 +18,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 50px 0;
 }
 
 .Skills-Hobbies .Contenedor h2 {

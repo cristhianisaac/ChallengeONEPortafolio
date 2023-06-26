@@ -28,15 +28,6 @@ a:active {
     color: #464646;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    margin-block-end: 5px;
-    padding-bottom: 10px;
-    line-height: 60px;
-    width: 100%;
-}
 
 @media (min-width:0px) {
 
@@ -66,7 +57,7 @@ h4 {
     h4 {
         margin-block-end: 5px;
         padding-bottom: 10px;
-        line-height: 60px;
+        line-height: 40px;
         width: 100%;
     }
 
@@ -159,7 +150,7 @@ h4 {
     h4 {
         margin-block-end: 5px;
         padding-bottom: 10px;
-        line-height: 42px;
+        line-height: 60px;
         width: 100%;
     }
 
@@ -251,11 +242,11 @@ margin-top:10px;
 
 
     .titulo {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .subtitulo {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Demo {
@@ -290,11 +281,11 @@ margin-top:10px;
 @media screen and (min-width:800px) {
 
     .titulo {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .subtitulo {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .Demo {

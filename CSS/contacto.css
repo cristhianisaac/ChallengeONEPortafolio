@@ -171,8 +171,10 @@
         width: 40%;
         height: 400px;
         display: block;
-        background-image: url(../IMG/Contact.png);
+        background-image: url(../IMG/Contact.webp);
         background-size:contain;
+		background-repeat: no-repeat;
+    background-position: center center; 
     }
 
     .Contacto .Contenedor .Contacto__Formulario {

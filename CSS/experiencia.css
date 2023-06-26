@@ -24,16 +24,6 @@
 
 @media (min-width:0px) {
 
-
-    .titulo {
-        font-size: 15px;
-    }
-
-    .subtitulo {
-        font-size: 13px;
-    }
-
-
     .Experiencias .Contenedor .Experiencia__Item {
         margin: 15px 0 15px 0;
         width: 100%;
@@ -80,15 +70,6 @@
 }
 
 @media screen and (min-width:800px) {
-
-    .titulo {
-        font-size: 18px;
-    }
-
-    .subtitulo {
-        font-size: 16px;
-    }
-
 
     .Experiencias .Contenedor {
         display: flex;
@@ -143,14 +124,6 @@
 }
 
 @media screen and (min-width:1024px) {
-
-    .titulo {
-        font-size: 21px;
-    }
-
-    .subtitulo {
-        font-size: 19px;
-    }
 
     .Experiencias .Contenedor {
         display: flex;
