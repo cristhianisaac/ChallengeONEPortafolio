@@ -259,11 +259,11 @@
   max-width: 100%;
   padding: 0 0 1.25em;
   border: none;
-  border-radius: 6px;
+  border-radius: 6rem;
   background: #fff;
   color: #545454;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 16rem;
 }
 .swal2-popup:focus {
   outline: none;
@@ -332,7 +332,7 @@
 }
 .swal2-styled.swal2-confirm {
   border: 0;
-  border-radius: 4px;
+  border-radius: 4rem;
   background: initial;
   background-color: hsl(171deg, 100%, 41%);
   color: hsl(0deg, 0%, 100%);
@@ -343,7 +343,7 @@
 }
 .swal2-styled.swal2-deny {
   border: 0;
-  border-radius: 4px;
+  border-radius: 4rem;
   background: initial;
   background-color: hsl(348deg, 86%, 61%);
   color: hsl(0deg, 0%, 100%);
@@ -354,7 +354,7 @@
 }
 .swal2-styled.swal2-cancel {
   border: 1px solid hsl(0deg, 0%, 86%);
-  border-radius: 4px;
+  border-radius: 4rem;
   background: initial;
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(0deg, 0%, 21%);
@@ -389,8 +389,8 @@
   left: 0;
   grid-column: auto !important;
   overflow: hidden;
-  border-bottom-right-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6rem;
+  border-bottom-left-radius: 6rem;
 }
 
 .swal2-timer-progress-bar {
@@ -409,16 +409,16 @@
   z-index: 2;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: -40px;
+  width: 40rem;
+  height: 40rem;
+  margin-top: 20rem;
+  margin-right: 20rem;
+  margin-bottom: -40rem;
   padding: 0;
   overflow: hidden;
   transition: color 0.1s, box-shadow 0.1s;
   border: none;
-  border-radius: 5px;
+  border-radius: 5rem;
   background: transparent;
   color: #fff;
   font-family: serif;
@@ -447,7 +447,7 @@
   padding: 0;
   overflow: auto;
   color: inherit;
-  font-size: 16px;
+  font-size: 16rem;
   font-weight: normal;
   line-height: normal;
   text-align: center;
@@ -461,7 +461,7 @@
 .swal2-select,
 .swal2-radio,
 .swal2-checkbox {
-  margin: 1em 2em 3px;
+  margin: 1em 2em 3rem;
 }
 
 .swal2-input,
@@ -471,7 +471,7 @@
   width: auto;
   transition: initial;
   border: 1px solid #d9d9d9;
-  border-radius: 4px;
+  border-radius: 4rem;
   background: transparent;
   box-shadow: inset 0 0.0625em 0.125em rgba(54, 54, 54, 0.05);
   color: inherit;
@@ -497,7 +497,7 @@
 }
 
 .swal2-range {
-  margin: 1em 2em 3px;
+  margin: 1em 2em 3rem;
   background: #fff;
 }
 .swal2-range input {
@@ -755,7 +755,7 @@
   flex-shrink: 0;
   width: 2.5em;
   height: 0.4em;
-  margin: 0 -1px;
+  margin: 0 -1rem;
   background: hsl(217deg, 71%, 53%);
 }
 
@@ -777,15 +777,15 @@
 
 .swal2-scrollbar-measure {
   position: absolute;
-  top: -9999px;
-  width: 50px;
-  height: 50px;
+  top: -9999rem;
+  width: 50rem;
+  height: 50rem;
   overflow: scroll;
 }
 
 .swal2-rtl .swal2-close {
   margin-right: initial;
-  margin-left: 20px;
+  margin-left: 20rem;
 }
 .swal2-rtl .swal2-timer-progress-bar {
   right: 0;
@@ -1046,7 +1046,7 @@ body.swal2-no-backdrop .swal2-container .swal2-modal {
 }
 body.swal2-toast-shown .swal2-container {
   box-sizing: border-box;
-  width: 360px;
+  width: 360rem;
   max-width: 100%;
   background-color: transparent;
   pointer-events: none;
@@ -1135,6 +1135,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 
 .swal2-select {
   border: 1px solid hsl(0deg, 0%, 86%);
-  border-radius: 4px;
+  border-radius: 4rem;
   color: hsl(0deg, 0%, 21%);
 }

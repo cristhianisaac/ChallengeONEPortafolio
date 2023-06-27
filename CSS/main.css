@@ -3,233 +3,318 @@ html {
     user-select: none;
     font-size: 1px;
 }
+
 * {
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
+
 body {
     background-color: #f5f5f5;
     color: #464646;
 }
+
 ul {
     list-style: none;
 }
+
 a {
     cursor: pointer;
-    text-align:center;
+    text-align: center;
 }
-a:link, a:visited, a:active {
+
+a:link,
+a:visited,
+a:active {
     text-decoration: none;
     color: #464646;
 }
+
 @media (min-width:0px) {
-    .principal, .Header, .Banner, .Sobre, .Skills-Hobbies, .Skills-Hobbies, .Escuelas, .Experiencias, .Contacto {
+
+    .principal,
+    .Header,
+    .Banner,
+    .Sobre,
+    .Skills-Hobbies,
+    .Skills-Hobbies,
+    .Escuelas,
+    .Experiencias,
+    .Contacto {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
-   }
+        margin-top: 25rem;
+    }
+
     .Contenedor {
         width: 90%;
-   }
-    h1, h2, h3, h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 40px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 40rem;
         width: 100%;
-   }
+    }
+
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 25px;
-        font-size: 15px;
-   }
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 25rem;
+        font-size: 15rem;
+    }
+
     h2 {
-        font-size: 22px;
+        font-size: 22rem;
         font-weight: bolder;
-   }
+    }
 }
+
 @media screen and (min-width:800px) {
-    .principal, .Header, .Banner, .Sobre, .Skills-Hobbies, .Skills-Hobbies, .Escuelas, .Experiencias, .Contacto {
+
+    .principal,
+    .Header,
+    .Banner,
+    .Sobre,
+    .Skills-Hobbies,
+    .Skills-Hobbies,
+    .Escuelas,
+    .Experiencias,
+    .Contacto {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
-   }
+        margin-top: 25rem;
+    }
+
     .Contenedor {
         width: 95%;
-   }
-    h1, h2, h3, h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 60px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 60rem;
         width: 100%;
-   }
+    }
+
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 27px;
-        font-size: 17px;
-   }
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 27rem;
+        font-size: 17rem;
+    }
+
     h2 {
-        font-size: 25px;
+        font-size: 25rem;
         font-weight: bolder;
-   }
+    }
 }
+
 @media screen and (min-width:1024px) {
-    .principal, .Header, .Banner, .Sobre, .Skills-Hobbies, .Skills-Hobbies, .Escuelas, .Experiencias, .Contacto {
+
+    .principal,
+    .Header,
+    .Banner,
+    .Sobre,
+    .Skills-Hobbies,
+    .Skills-Hobbies,
+    .Escuelas,
+    .Experiencias,
+    .Contacto {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 25px;
-   }
+        margin-top: 25rem;
+    }
+
     .Contenedor {
         width: 70%;
-        min-width: 1040px;
-   }
-    h1, h2, h3, h4 {
-        margin-block-end: 5px;
-        padding-bottom: 10px;
-        line-height: 60px;
+        min-width: 1040rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin-block-end: 5rem;
+        padding-bottom: 10rem;
+        line-height: 60rem;
         width: 100%;
-   }
+    }
+
     p {
-        margin-block-start: 4px;
-        margin-block-end: 4px;
-        padding-bottom: 10px;
-        line-height: 30px;
-        font-size: 20px;
-   }
+        margin-block-start: 4rem;
+        margin-block-end: 4rem;
+        padding-bottom: 10rem;
+        line-height: 30rem;
+        font-size: 20rem;
+    }
+
     h2 {
-        font-size: 28px;
+        font-size: 28rem;
         font-weight: bolder;
-   }
+    }
 }
-.Sobre, .Escuelas, .Contacto {
+
+.Sobre,
+.Escuelas,
+.Contacto {
     background-color: #eaf2fd;
 }
+
 .Demo {
     background-color: #2296d4;
-    border-radius: 5px;
+    border-radius: 5rem;
     border: 1px solid #246ad4;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    padding: 16px 31px;
+    padding: 16px 31rem;
     text-decoration: none;
-    min-width: 100px;
-    margin-top:10px;
+    min-width: 100rem;
+    margin-top: 10rem;
 }
-.Demo:visited{
+
+.Demo:visited {
     color: #ffffff;
 }
+
 .Demo:hover {
     background-color: #ffffff;
     color: #2296d4;
 }
+
 .Demo:active {
     position: relative;
-    top: 1px;
+    top: 1rem;
 }
+
 .Repositorio {
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 5rem;
     border: 1px solid #2296d4;
     display: inline-block;
     cursor: pointer;
     color: #2296d4;
-    padding: 16px 31px;
+    padding: 16px 31rem;
     text-decoration: none;
-    min-width: 100px;
-    margin-top:10px;
+    min-width: 100rem;
+    margin-top: 10rem;
 }
-.Repositorio:visited{
+
+.Repositorio:visited {
     color: #2296d4;
 }
+
 .Repositorio:hover {
     background-color: #2296d4;
     color: #ffffff;
 }
+
 .Repositorio:active {
     position: relative;
-    top: 1px;
+    top: 1rem;
 }
+
 .pie p {
     text-align: center;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
     padding: 10px 0 10px 0;
-    line-height: 18px;
+    line-height: 18rem;
 }
+
 @media (min-width:0px) {
     .titulo {
-        font-size: 17px;
-   }
+        font-size: 17rem;
+    }
+
     .subtitulo {
-        font-size: 15px;
-   }
+        font-size: 15rem;
+    }
+
     .Demo {
         width: 30%;
         margin-left: 5%;
-        font-size: 14px;
-   }
+        font-size: 14rem;
+    }
+
     .Repositorio {
         width: 30%;
         margin-right: 5%;
-        font-size: 14px;
-   }
+        font-size: 14rem;
+    }
 }
+
 @media (max-width:500px) {
     .Demo {
-        margin: 0 !important 
-   }
+        margin: 0 !important
+    }
+
     .Repositorio {
-        margin: 0 !important 
-   }
+        margin: 0 !important
+    }
+
     .Contenedor {
-        min-width: 360px;
-   }
+        min-width: 360rem;
+    }
 }
+
 @media screen and (min-width:800px) {
     .titulo {
-        font-size: 19px;
-   }
+        font-size: 19rem;
+    }
+
     .subtitulo {
-        font-size: 17px;
-   }
+        font-size: 17rem;
+    }
+
     .Demo {
         width: 30%;
         margin-left: 5%;
-        font-size: 14px;
-   }
+        font-size: 14rem;
+    }
+
     .Repositorio {
         width: 30%;
         margin-right: 5%;
-        font-size: 14px;
-   }
+        font-size: 14rem;
+    }
 }
+
 @media screen and (min-width:1024px) {
     .titulo {
-        font-size: 21px;
-   }
+        font-size: 21rem;
+    }
+
     .subtitulo {
-        font-size: 19px;
-   }
+        font-size: 19rem;
+    }
+
     .Demo {
-        font-size: 17px;
+        font-size: 17rem;
         width: auto;
         margin: 0;
-   }
+    }
+
     .Repositorio {
-        font-size: 17px;
+        font-size: 17rem;
         width: auto;
         margin: 0;
-   }
+    }
 }

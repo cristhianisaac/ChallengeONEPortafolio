@@ -1,53 +1,64 @@
-#Skills .Contenedor{
+#Skills .Contenedor {
     margin: 50px 0 0 0;
 }
-#Hobbies .Contenedor{
+
+#Hobbies .Contenedor {
     margin: 0 0 50px 0;
 }
+
 .Skills-Hobbies .Contenedor {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 .Skills-Hobbies .Contenedor {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 .Skills-Hobbies .Contenedor h2 {
     text-align: center;
 }
+
 .Skills-Hobbies .Contenedor h2 {
     text-align: center;
 }
+
 .Cuadricula {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 .Cuadricula div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 0 50px 0;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 10rem;
 }
+
 .Cuadricula div i {
     margin-top: auto;
     color: #2a7ae4;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 50rem;
+    margin-bottom: 20rem;
 }
+
 .Cuadricula div label {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
+
 .Cuadricula div label {
     font-weight: bold;
 }
+
 @media (min-width:0px) {
     .Skills-Hobbies .Contenedor {
         display: flex;
@@ -55,44 +66,53 @@
         justify-content: space-between;
         align-items: center;
         margin: px 0 0 0;
-   }
+    }
+
     .Skills-Hobbies .Contenedor {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: 0 0 50px 0;
-   }
+    }
+
     .Cuadricula {
         flex-wrap: wrap;
-   }
+    }
+
     .Cuadricula .Cuadricula__Item {
         width: 45%;
-        height: 150px;
+        height: 150rem;
         text-align: center;
-   }
+    }
+
     .Cuadricula .Cuadricula__Item i {
         width: 80%;
-   }
+    }
+
     .Cuadricula .Cuadricula__Item label {
         width: 80%;
-   }
+    }
 }
+
 @media screen and (min-width:800px) {
     .Cuadricula {
         flex-wrap: wrap;
-   }
+    }
+
     .Cuadricula .Cuadricula__Item {
         width: 30%;
-   }
+    }
+
     .Cuadricula .Cuadricula__Item label {
         font-weight: bold;
-   }
+    }
 }
+
 @media screen and (min-width:1024px) {
     .Cuadricula .Cuadricula__Item {
         width: 15%;
-        height: 180px;
+        height: 180rem;
         text-align: left;
-   }
+    }
 }
