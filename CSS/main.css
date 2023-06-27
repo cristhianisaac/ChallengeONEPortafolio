@@ -175,7 +175,7 @@ a:active {
 }
 
 .Demo {
-    background-color: #2296d4;
+    background-color: #2A7AE4;
     border-radius: 5rem;
     border: 1px solid #246ad4;
     display: inline-block;
@@ -184,7 +184,6 @@ a:active {
     padding: 16px 31rem;
     text-decoration: none;
     min-width: 100rem;
-    margin-top: 10rem;
 }
 
 .Demo:visited {
@@ -193,7 +192,7 @@ a:active {
 
 .Demo:hover {
     background-color: #ffffff;
-    color: #2296d4;
+    color: #2A7AE4;
 }
 
 .Demo:active {
@@ -204,22 +203,21 @@ a:active {
 .Repositorio {
     background-color: #ffffff;
     border-radius: 5rem;
-    border: 1px solid #2296d4;
+    border: 1px solid #2A7AE4;
     display: inline-block;
     cursor: pointer;
-    color: #2296d4;
+    color: #2A7AE4;
     padding: 16px 31rem;
     text-decoration: none;
     min-width: 100rem;
-    margin-top: 10rem;
 }
 
 .Repositorio:visited {
-    color: #2296d4;
+    color: #2A7AE4;
 }
 
 .Repositorio:hover {
-    background-color: #2296d4;
+    background-color: #2A7AE4;
     color: #ffffff;
 }
 
@@ -248,28 +246,14 @@ a:active {
         font-size: 15rem;
     }
 
-    .Demo {
-        width: 30%;
-        margin-left: 5%;
-        font-size: 14rem;
-    }
-
-    .Repositorio {
-        width: 30%;
-        margin-right: 5%;
+    .Demo, .Repositorio {
+        width: 25%;
+        margin: 10rem 3% 5rem 3%;
         font-size: 14rem;
     }
 }
 
 @media (max-width:500px) {
-    .Demo {
-        margin: 0 !important
-    }
-
-    .Repositorio {
-        margin: 0 !important
-    }
-
     .Contenedor {
         min-width: 360rem;
     }
@@ -284,15 +268,9 @@ a:active {
         font-size: 17rem;
     }
 
-    .Demo {
+    .Demo , .Repositorio {
         width: 30%;
-        margin-left: 5%;
-        font-size: 14rem;
-    }
-
-    .Repositorio {
-        width: 30%;
-        margin-right: 5%;
+        margin: 10rem 3% 5rem 3%;
         font-size: 14rem;
     }
 }
@@ -306,15 +284,9 @@ a:active {
         font-size: 19rem;
     }
 
-    .Demo {
+    .Demo , .Repositorio {
         font-size: 17rem;
         width: auto;
-        margin: 0;
-    }
-
-    .Repositorio {
-        font-size: 17rem;
-        width: auto;
-        margin: 0;
+        margin: 10rem 10rem 5rem 10rem;
     }
 }

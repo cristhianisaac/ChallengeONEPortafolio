@@ -24,7 +24,7 @@
 }
 
 .Header .Contenedor .Menu .Menu__Lista li a:hover {
-    color: #2296d4;
+    color: #2A7AE4;
 }
 
 .Header .Contenedor .Menu .Menu__Lista li a:active {
@@ -33,7 +33,7 @@
 }
 
 .active {
-    color: #2296d4 !important;
+    color: #2A7AE4 !important;
 }
 
 @media (min-width:0px) {

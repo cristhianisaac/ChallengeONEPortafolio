@@ -53,10 +53,7 @@
 .Cuadricula div label {
     font-weight: bold;
     margin-bottom: 10rem;
-}
-
-.Cuadricula div label {
-    font-weight: bold;
+    font-size: 16rem;
 }
 
 @media (min-width:0px) {
@@ -103,16 +100,12 @@
     .Cuadricula .Cuadricula__Item {
         width: 30%;
     }
-
-    .Cuadricula .Cuadricula__Item label {
-        font-weight: bold;
-    }
 }
 
 @media screen and (min-width:1024px) {
     .Cuadricula .Cuadricula__Item {
         width: 15%;
-        height: 180rem;
+        height: 170rem;
         text-align: left;
     }
 }
