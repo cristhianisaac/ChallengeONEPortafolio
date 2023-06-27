@@ -4,23 +4,19 @@
     align-items: center;
     margin: 50px 0 50px 0;
 }
-
 .Escuelas .Contenedor h2 {
     text-align: center;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item {
     display: flex;
     flex-direction: column;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen {
     height: 350px;
     display: flex;
@@ -28,72 +24,57 @@
     justify-content: center;
     width: 100%;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen {
     background-color: #fff;
     border-radius: 10px;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen img {
     border-radius: 10px;
 }
-
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item label {
     width: 100%;
     margin-top: 5px;
 }
-
 .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .titulo {
     font-weight: bold;
 }
-
 @media (min-width:0px) {
-
     .Escuelas .Contenedor .Escuelas__Lista {
         flex-direction: column;
-    }
-
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item {
         width: 100%;
         margin: 15px 0 25px 0;
-    }
-
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen img {
         width: 45%;
-    }
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item label {
         width: 100%;
         text-align: center;
         padding: 5px;
-    }
+   }
 }
-
 @media screen and (min-width:800px) {
-    
     .Escuelas .Contenedor .Escuelas__Lista {
         flex-direction: row;
-    }
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item {
         width: 30%;
-    }
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen img {
         width: 75%;
-    }
-
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item label {
         text-align: left;
         padding: 3px;
-    }
+   }
 }
-
 @media screen and (min-width:1024px) {
-
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item {
         width: 30%;
-    }
-
+   }
     .Escuelas .Contenedor .Escuelas__Lista .Escuelas__Lista__Item .Imagen img {
         width: 75%;
-    }
+   }
 }
