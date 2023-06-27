@@ -35,6 +35,9 @@
         padding-bottom: 10rem;
         line-height: 28rem;
     }
+    .Banner .Contenedor .Banner__Descripcion p {
+        font-size: 16rem;
+    }
 
     .Banner .Contenedor .Banner__Imagen {
         width: 50%;
@@ -77,11 +80,14 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion h1 {
-        font-size: 28rem;
+        font-size: 22rem;
         margin-block-end: 5rem;
         padding-bottom: 10rem;
         line-height: 60rem;
         width: 100%;
+    }
+    .Banner .Contenedor .Banner__Descripcion p {
+        font-size: 16rem;
     }
 
     .Banner .Contenedor .Banner__Imagen {
@@ -89,7 +95,7 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
-        font-size: 17rem;
+        font-size: 16rem;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
@@ -115,11 +121,14 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion h1 {
-        font-size: 32rem;
+        font-size: 52rem;
+    }
+    .Banner .Contenedor .Banner__Descripcion p {
+        font-size: 22rem;
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes {
-        font-size: 20rem;
+        font-size: 16rem;
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li {
@@ -128,7 +137,6 @@
     }
 
     .Banner .Contenedor .Banner__Descripcion .Banner__Descripcion__Redes li a i {
-        font-size: 22rem;
         width: auto;
     }
 }

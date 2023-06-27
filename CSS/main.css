@@ -66,7 +66,7 @@ a:active {
         margin-block-end: 4rem;
         padding-bottom: 10rem;
         line-height: 25rem;
-        font-size: 15rem;
+        font-size: 14rem;
     }
 
     h2 {
@@ -112,11 +112,10 @@ a:active {
         margin-block-end: 4rem;
         padding-bottom: 10rem;
         line-height: 27rem;
-        font-size: 17rem;
+        font-size: 16rem;
     }
 
     h2 {
-        font-size: 25rem;
         font-weight: bolder;
     }
 }
@@ -141,7 +140,7 @@ a:active {
 
     .Contenedor {
         width: 70%;
-        min-width: 1040rem;
+        min-width: 900rem;
     }
 
     h1,
@@ -159,11 +158,10 @@ a:active {
         margin-block-end: 4rem;
         padding-bottom: 10rem;
         line-height: 30rem;
-        font-size: 20rem;
     }
 
     h2 {
-        font-size: 28rem;
+        font-size: 32rem;
         font-weight: bolder;
     }
 }
@@ -239,11 +237,11 @@ a:active {
 
 @media (min-width:0px) {
     .titulo {
-        font-size: 17rem;
+        font-size: 16rem;
     }
 
     .subtitulo {
-        font-size: 15rem;
+        font-size: 14rem;
     }
 
     .Demo, .Repositorio {
@@ -261,27 +259,27 @@ a:active {
 
 @media screen and (min-width:800px) {
     .titulo {
-        font-size: 19rem;
+        font-size: 20rem;
     }
 
     .subtitulo {
-        font-size: 17rem;
+        font-size: 18rem;
     }
 
     .Demo , .Repositorio {
         width: 30%;
         margin: 10rem 3% 5rem 3%;
-        font-size: 14rem;
+        font-size: 15rem;
     }
 }
 
 @media screen and (min-width:1024px) {
     .titulo {
-        font-size: 21rem;
+        font-size: 22rem;
     }
 
     .subtitulo {
-        font-size: 19rem;
+        font-size: 16rem;
     }
 
     .Demo , .Repositorio {

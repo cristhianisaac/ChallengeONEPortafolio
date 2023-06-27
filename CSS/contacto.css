@@ -12,6 +12,7 @@
     border-radius: 10rem;
     overflow: hidden;
     z-index: 0;
+    font-size: 14rem;
 }
 
 .Contacto__Formulario__Input .Contacto__Formulario__Label {
@@ -49,6 +50,7 @@
     color: #000;
     transition: all 0.15s ease;
     margin-bottom: 10rem;
+    font-size: 16rem;
 }
 
 .Contacto__Formulario__Input input:hover {

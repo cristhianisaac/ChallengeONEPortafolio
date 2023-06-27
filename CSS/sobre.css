@@ -13,14 +13,7 @@
 }
 
 @media screen and (min-width:800px) {
-    .titulo {
-        font-size: 18rem;
-    }
-
-    .subtitulo {
-        font-size: 16rem;
-    }
-
+    
     .Sobre .Contenedor {
         margin: 50px 0 50px 0;
     }

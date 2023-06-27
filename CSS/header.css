@@ -73,16 +73,15 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 25rem;
     }
 
     .Header .Contenedor .Nombre {
-        font-size: 21rem;
+        font-size: 18rem;
     }
 
     .Header .Contenedor .Menu .Menu__Lista {
         display: flex;
-        font-size: 19rem;
+        font-size: 16rem;
     }
 
     .Header .Contenedor .Menu .Menu__Lista li:last-child {
@@ -100,18 +99,20 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        font-size: 28rem;
     }
 
     .Header .Contenedor .Nombre {
-        font-size: 24rem;
+        font-size: 18rem;
     }
 
     .Header .Contenedor .Menu .Menu__Lista {
         display: flex;
-        font-size: 22rem;
+        font-size: 16rem;
     }
 
+    .Header .Contenedor .Menu .Menu__Lista li {
+        padding: 0 15rem;
+    }
     .Header .Contenedor .Menu .Menu__Lista li:last-child {
         font-weight: bold;
     }
